@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+ctgan
+modal
+pytest
+pika
+torch

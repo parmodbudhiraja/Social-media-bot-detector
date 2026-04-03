@@ -1,0 +1,22 @@
+name: instagram-ml-inference
+entrypoint: "uvicorn main:app --host 0.0.0.0 --port 8000"
+
+image:
+  python_version: "3.10"
+  system_packages:
+    - libgomp1
+  python_packages:
+    - fastapi
+    - uvicorn
+    - pandas
+    - scikit-learn
+    - ctgan
+    - torch
+
+hardware:
+  gpu: "T4" # Serverless cheap GPU for fast hackathon batch-inference
+  memory: 4096
+
+mounts:
+  - local_dir: "."
+    remote_dir: "/app"
