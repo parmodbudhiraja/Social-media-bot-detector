@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
       animation: {
         'progress': 'progress 5s ease-in-out infinite alternate',
         'fade-in': 'fadeIn 1s ease-out forwards',
