@@ -67,67 +67,63 @@ export function ResultsDashboard({ jobId, result }) {
 
   const totalAnalyzed = Object.values(categories).reduce((acc, cat) => acc + cat.data.length, 0);
 
+  const getBadgeClass = (key) => {
+    if (key === 'fake_100') return 'badge badge-red';
+    if (key === 'maybe_fake') return 'badge badge-amber';
+    if (key === 'maybe_real') return 'badge badge-yellow';
+    return 'badge badge-green';
+  };
+
+  const getId = (key) => {
+    if (key === 'fake_100') return 'count-fake';
+    if (key === 'maybe_fake') return 'count-maybe-fake';
+    if (key === 'maybe_real') return 'count-maybe-real';
+    return 'count-real_100'; // or count-real
+  };
+
   if (totalAnalyzed === 0) return null;
 
   return (
-    <div className="mt-8 animate-fade-in pb-4">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-6 gap-4 border-b border-[#DADCE0] pb-4">
-        <div>
-          <h2 className="text-2xl font-normal text-[#202124] tracking-tight">Analysis Report</h2>
-          <p className="text-[#5F6368] text-sm mt-1">Metrics extracted and categorized via AI modeling</p>
-        </div>
-        <div className="px-4 py-2 text-right">
-          <p className="text-[11px] uppercase tracking-wider text-[#5F6368] mb-1 font-bold">Profiles Processed</p>
-          <p className="text-3xl font-normal text-[#1A73E8] leading-none">{totalAnalyzed}</p>
-        </div>
-      </div>
+    <div className="results-card animate-fade-in">
+      <h2>Analysis Report</h2>
+      <p className="subtitle">Metrics extracted and categorized via AI modeling ({totalAnalyzed} Profiles)</p>
 
-      <div className="bg-white border border-[#DADCE0] rounded-lg overflow-hidden mb-8 shadow-sm">
-        <table className="w-full border-collapse text-left">
-          <thead className="bg-[#F8F9FA] border-b border-[#DADCE0]">
-            <tr className="text-xs font-medium text-[#5F6368]">
-              <th className="px-6 py-4">Category</th>
-              <th className="px-6 py-4 text-center w-32 border-l border-[#DADCE0]">Value</th>
-              <th className="px-6 py-4 text-center w-48 border-l border-[#DADCE0]">Export</th>
+      <table className="m3-table">
+        <thead>
+          <tr>
+             <th>Category</th>
+             <th>Number of users</th>
+             <th>Extract the user IDs</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.entries(categories).map(([key, cat]) => (
+            <tr key={key}>
+              <td>
+                <span className={getBadgeClass(key)}>{cat.title}</span> 
+              </td>
+              <td id={getId(key)}>{cat.data.length}</td>
+              <td>
+                <button 
+                  className="m3-tonal-button"
+                  onClick={() => downloadTxtFile(key, cat.title)}
+                  disabled={cat.data.length === 0}
+                  style={{ opacity: cat.data.length === 0 ? 0.5 : 1, cursor: cat.data.length === 0 ? 'not-allowed' : 'pointer', fontSize: '0.85rem', padding: '6px 16px' }}
+                >
+                  Download
+                </button>
+              </td>
             </tr>
-          </thead>
-          <tbody className="divide-y divide-[#DADCE0]">
-            {Object.entries(categories).map(([key, cat]) => (
-              <tr key={key} className="hover:bg-[#F8F9FA] transition-colors">
-                <td className="px-6 py-5">
-                  <div className="text-[15px] font-medium text-[#202124] capitalize">{cat.title}</div>
-                </td>
-                <td className="px-6 py-5 text-center border-l border-[#DADCE0]">
-                  <span className="inline-block px-3 py-1 bg-[#F1F3F4] rounded-full text-sm font-medium text-[#3C4043]">
-                    {cat.data.length}
-                  </span>
-                </td>
-                <td className="px-6 py-5 text-center border-l border-[#DADCE0]">
-                  <button 
-                    onClick={() => downloadTxtFile(key, cat.title)}
-                    disabled={cat.data.length === 0}
-                    className="inline-flex items-center justify-center gap-2 text-[#1A73E8] hover:bg-[#F1F3F4] disabled:text-[#9AA0A6] disabled:hover:bg-transparent text-sm font-medium py-2 px-5 rounded-full transition w-full whitespace-nowrap"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-[18px] w-[18px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                    Download .txt
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="flex justify-end pt-4">
-        <button 
-          onClick={() => window.location.reload()}
-          className="text-[#1A73E8] hover:bg-[#F8F9FA] px-6 py-2.5 rounded-full transition border border-[#DADCE0] text-sm font-medium"
-        >
-          Analyze Another URL
-        </button>
-      </div>
+          ))}
+        </tbody>
+      </table>
+      
+      <button 
+        className="m3-tonal-button"
+        onClick={() => window.location.reload()}
+      >
+        Analyze Another URL
+      </button>
     </div>
   );
 }
