@@ -197,30 +197,45 @@ def main():
     ctgan = CTGAN(epochs=15)
     ctgan.fit(df_features, discrete_columns)
 
-    # Step 3: Generate synthetic feature rows
-    target_rows = 50000
-    print(f"Generating {target_rows} synthetic feature rows...")
-    synthetic_features = ctgan.sample(target_rows)
-
-    # Step 4: Reconstruct each row into the correct CSV format
-    print("Reconstructing into structured CSV format...")
-    output_rows = []
-    for _, row in synthetic_features.iterrows():
-        output_rows.append(reconstruct_row(row.to_dict()))
-
-    df_output = pd.DataFrame(output_rows)
+    # Step 3 & 4: Generate synthetic feature rows in chunks to prevent OOM
+    target_rows = 10000000
+    chunk_size = 50000
     csv_path = 'data/behavioral_amplified_v2.csv'
-    try:
-        df_output.to_csv(csv_path, index=False, encoding='utf-8')
-        print(f"Successfully saved {len(df_output)} rows to {csv_path}")
-    except Exception as e:
-        print(f"Error saving CSV: {e}")
-        # Try without encoding just in case, but usually utf-8 is needed for emojis
-        df_output.to_csv(csv_path, index=False)
 
-    print(f"Columns: {list(df_output.columns)}")
-    print(f"\nSample rows:")
-    print(df_output.head(3).to_string())
+    print(f"Generating {target_rows} synthetic feature rows in chunks of {chunk_size}...")
+    
+    # Write header first
+    header_written = False
+    
+    for chunk_idx in range(0, target_rows, chunk_size):
+        current_chunk_size = min(chunk_size, target_rows - chunk_idx)
+        print(f"Generating chunk {chunk_idx // chunk_size + 1} ({current_chunk_size} rows)...")
+        
+        synthetic_features = ctgan.sample(current_chunk_size)
+        
+        output_rows = []
+        for _, row in synthetic_features.iterrows():
+            output_rows.append(reconstruct_row(row.to_dict()))
+            
+        df_chunk = pd.DataFrame(output_rows)
+        
+        mode = 'w' if not header_written else 'a'
+        header = not header_written
+        
+        try:
+            df_chunk.to_csv(csv_path, mode=mode, header=header, index=False, encoding='utf-8')
+        except Exception as e:
+            print(f"Error saving CSV chunk: {e}")
+            df_chunk.to_csv(csv_path, mode=mode, header=header, index=False)
+            
+        header_written = True
+        print(f"Progress: {min(chunk_idx + current_chunk_size, target_rows)} / {target_rows} rows saved.")
+
+    print(f"Successfully saved all {target_rows} rows to {csv_path}")
+
+    print(f"Columns: {list(df_chunk.columns)}")
+    print(f"\nSample rows from last chunk:")
+    print(df_chunk.head(3).to_string())
 
 
 if __name__ == "__main__":
