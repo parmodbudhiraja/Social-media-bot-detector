@@ -8,11 +8,17 @@ import joblib
 import torch
 from scripts.train_models import LSTMModel
 import pandas as pd
+import logging
+
+# Configure Logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Instagram Engagement ML Inference", version="1.0")
 
 @app.get("/accuracy")
 def get_accuracy():
+    logger.info("Accuracy request received")
     results = {}
     try:
         if os.path.exists('models/rf_accuracy.json'):
@@ -21,8 +27,10 @@ def get_accuracy():
         if os.path.exists('models/lstm_accuracy.json'):
             with open('models/lstm_accuracy.json', 'r') as f:
                 results['lstm'] = json.load(f)
+        logger.debug(f"Returning accuracy results: {results}")
         return results
     except Exception as e:
+        logger.error(f"Error fetching accuracy: {str(e)}")
         return {"error": str(e)}
 
 class BatchRequest(BaseModel):
@@ -42,24 +50,31 @@ lstm_model = None
 @app.on_event("startup")
 def load_models():
     global rf_model, lstm_model
+    logger.info("ML API: Starting model load sequence")
     try:
         if os.path.exists('models/random_forest.pkl'):
             rf_model = joblib.load('models/random_forest.pkl')
-            print("Loaded Random Forest Model")
+            logger.info("ML API: Successfully loaded Random Forest Model")
+        else:
+            logger.warning("ML API: Random Forest Model file not found")
         
         if os.path.exists('models/lstm_weights.pth'):
             lstm_model = LSTMModel(input_size=5, hidden_size=16, num_layers=1, num_classes=2)
             lstm_model.load_state_dict(torch.load('models/lstm_weights.pth'))
             lstm_model.eval()
-            print("Loaded LSTM Model")
+            logger.info("ML API: Successfully loaded LSTM Model")
+        else:
+            logger.warning("ML API: LSTM Model file not found")
     except Exception as e:
-        print(f"Warning: Models could not be loaded: {e}")
+        logger.error(f"ML API ERROR: Models could not be loaded: {str(e)}")
 
 from feature_extraction import extract_profile_features, extract_behavioral_features
 
 @app.post("/predict/batch", response_model=BatchResponse)
 def predict_batch(request: BatchRequest):
+    logger.info(f"ML API: Received batch prediction for Job {request.job_id} ({len(request.items)} items)")
     if not request.items:
+        logger.error(f"ML API: Job {request.job_id} items list is empty")
         raise HTTPException(status_code=400, detail="Items list cannot be empty")
         
     n_items = len(request.items)
@@ -84,8 +99,9 @@ def predict_batch(request: BatchRequest):
             
             X_rf = rf_features_df[features_columns]
             x_preds = rf_model.predict(X_rf).tolist()
+            logger.debug(f"ML API: Job {request.job_id} Model 1 (RF) predictions complete")
         else:
-            # Fallback mock logic if model missing
+            logger.warning(f"ML API: Job {request.job_id} Model 1 (RF) missing, falling back to mock")
             x_preds = [1 if np.random.rand() > 0.5 else 0 for _ in range(n_items)]
             
         # 2. Feature Extraction for LSTM (Model 2)
@@ -97,10 +113,12 @@ def predict_batch(request: BatchRequest):
                 outputs = lstm_model(seq_tensors)
                 _, predicted = torch.max(outputs.data, 1)
                 y_preds = predicted.tolist()
+            logger.debug(f"ML API: Job {request.job_id} Model 2 (LSTM) predictions complete")
         else:
-            # Fallback mock logic if model missing
+            logger.warning(f"ML API: Job {request.job_id} Model 2 (LSTM) missing, falling back to mock")
             y_preds = [1 if np.random.rand() > 0.7 else 0 for _ in range(n_items)]
             
+        logger.info(f"ML API: Inference complete for Job {request.job_id}")
         return BatchResponse(
             job_id=request.job_id,
             status="SUCCESS",
@@ -108,6 +126,7 @@ def predict_batch(request: BatchRequest):
             y_predictions=y_preds
         )
     except Exception as e:
+        logger.error(f"ML API ERROR: Job {request.job_id} inference failed: {str(e)}")
         import traceback
-        traceback.print_exc()
+        logger.error(traceback.format_exc())
         raise HTTPException(status_code=500, detail=str(e))

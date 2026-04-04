@@ -5,8 +5,13 @@ import torch
 import joblib
 import pandas as pd
 import numpy as np
+import logging
 from main import LSTMModel
 from feature_extraction import extract_profile_features, extract_behavioral_features
+
+# Configure Logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 # Configuration
 RABBITMQ_HOST = os.getenv('RABBITMQ_HOST', 'localhost')
@@ -21,17 +26,23 @@ lstm_model = None
 
 def load_models():
     global rf_model, lstm_model
+    logger.info("Consumer: Starting model load sequence")
     try:
         if os.path.exists('models/random_forest.pkl'):
             rf_model = joblib.load('models/random_forest.pkl')
-            print("Consumer: Loaded RF Model")
+            logger.info("Consumer: Successfully loaded RF Model")
+        else:
+            logger.warning("Consumer: RF Model file missing")
+            
         if os.path.exists('models/lstm_weights.pth'):
             lstm_model = LSTMModel(input_size=5, hidden_size=16, num_layers=1, num_classes=2)
             lstm_model.load_state_dict(torch.load('models/lstm_weights.pth'))
             lstm_model.eval()
-            print("Consumer: Loaded LSTM Model")
+            logger.info("Consumer: Successfully loaded LSTM Model")
+        else:
+            logger.warning("Consumer: LSTM Model weights missing")
     except Exception as e:
-        print(f"Consumer Warning: Models could not be loaded: {e}")
+        logger.error(f"Consumer Error: Models could not be loaded: {str(e)}")
 
 def process_message(ch, method, properties, body):
     try:
@@ -39,8 +50,10 @@ def process_message(ch, method, properties, body):
         job_id = data.get('job_id')
         items = data.get('items', [])
         
+        logger.info(f"Consumer: Processing Job {job_id} ({len(items)} items)")
+        
         if not items:
-            print(f"Empty items for job {job_id}")
+            logger.warn(f"Consumer: Job {job_id} received with empty items list")
             ch.basic_ack(delivery_tag=method.delivery_tag)
             return
 
@@ -61,6 +74,8 @@ def process_message(ch, method, properties, body):
         x_preds = [0] * len(items)
         if rf_model:
             x_preds = rf_model.predict(rf_df[features_columns]).tolist()
+        else:
+            logger.info(f"Consumer: Job {job_id} Model RF missing, providing defaults")
             
         # 2. Behavioral LSTM Predictions
         y_preds = [0] * len(items)
@@ -71,6 +86,8 @@ def process_message(ch, method, properties, body):
                 outputs = lstm_model(seq_tensors)
                 _, predicted = torch.max(outputs.data, 1)
                 y_preds = predicted.tolist()
+        else:
+             logger.info(f"Consumer: Job {job_id} Model LSTM missing, providing defaults")
 
         # Extract Usernames for joined report
         usernames = [str(item.get("profile", {}).get("username", "unknown")) for item in items]
@@ -88,19 +105,19 @@ def process_message(ch, method, properties, body):
             routing_key=ROUTING_KEY_RESULTS,
             body=json.dumps(result_payload)
         )
-        print(f"Processed job {job_id} and sent results")
+        logger.info(f"Consumer: Completed inference for Job {job_id} and published to {RESULTS_QUEUE}")
         ch.basic_ack(delivery_tag=method.delivery_tag)
         
     except Exception as e:
-        print(f"Error processing message: {e}")
+        logger.error(f"Consumer Error: Failed to process message: {str(e)}")
         # Reject and requeue or discard depending on error
         ch.basic_nack(delivery_tag=method.delivery_tag, requeue=False)
 
 def main():
     load_models()
     
-    import time
     max_retries = 30
+    connection = None
     for attempt in range(max_retries):
         try:
             connection = pika.BlockingConnection(
@@ -112,12 +129,13 @@ def main():
                     )
                 )
             )
+            logger.info("Consumer: RabbitMQ connection established")
             break
         except pika.exceptions.AMQPConnectionError:
-            print(f"RabbitMQ not ready, retrying ({attempt+1}/{max_retries})...")
+            logger.info(f"Consumer: RabbitMQ not ready, retrying ({attempt+1}/{max_retries})...")
             time.sleep(2)
     else:
-        print("Failed to connect to RabbitMQ after retries. Exiting.")
+        logger.critical("Consumer: Failed to connect to RabbitMQ after retries. Exiting.")
         return
     
     channel = connection.channel()
@@ -128,7 +146,7 @@ def main():
     channel.basic_qos(prefetch_count=1)
     channel.basic_consume(queue=INFERENCE_QUEUE, on_message_callback=process_message)
     
-    print(" [*] Waiting for inference requests. To exit press CTRL+C")
+    logger.info(" [*] Consumer: Waiting for inference requests. To exit press CTRL+C")
     channel.start_consuming()
 
 if __name__ == "__main__":
