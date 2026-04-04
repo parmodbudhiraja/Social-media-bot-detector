@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 const steps = [
-  { key: 'PENDING', label: 'Queued' },
+  { key: 'PENDING', label: 'Queuing' },
   { key: 'SCRAPING', label: 'Scraping' },
-  { key: 'INFERENCE', label: 'ML Inference' },
-  { key: 'COMPLETED', label: 'Done' }
+  { key: 'INFERENCE', label: 'Analyzing' }
 ];
 
 export function StatusStepper({ status }) {
   const currentIndex = steps.findIndex(s => s.key === status);
-  const totalProgress = (Math.max(0, currentIndex) / (steps.length - 1)) * 100;
-  
   const [stageProgress, setStageProgress] = useState(0);
 
   useEffect(() => {
@@ -30,42 +27,32 @@ export function StatusStepper({ status }) {
     
     return () => clearInterval(interval);
   }, [status]);
-
+  
   return (
-    <div className="w-full py-6">
-      <div className="relative h-1 bg-[#F1F3F4] rounded-full mb-12">
-        <div 
-          className="absolute h-full bg-[#1A73E8] rounded-full transition-all duration-700"
-          style={{ width: `${totalProgress}%` }}
-        />
-        <div className="absolute top-[-14px] w-full flex justify-between px-1">
-          {steps.map((step, index) => {
-            const isCompleted = currentIndex > index;
-            const isActive = currentIndex === index;
-            return (
-              <div key={step.key} className="flex flex-col items-center">
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold transition-all duration-500 z-10 
-                  ${isCompleted ? 'bg-[#1A73E8] text-white shadow-sm' : 
-                    isActive ? 'bg-[#1A73E8] text-white ring-4 ring-[#E8F0FE] scale-110' : 
-                    'bg-[#F8F9FA] text-[#80868B] border border-[#DADCE0]'}`}>
-                  {isCompleted ? '✓' : index + 1}
-                </div>
-                <div className="flex flex-col items-center mt-4">
-                    <span className={`text-xs font-medium transition-colors duration-300
-                    ${isCompleted ? 'text-[#1A73E8]' : isActive ? 'text-[#202124]' : 'text-[#80868B]'}`}>
-                    {step.label}
-                    </span>
-                    {isActive && status !== 'COMPLETED' && (
-                        <span className="text-[10px] text-[#5F6368] mt-1 font-medium">
-                            {stageProgress}%
-                        </span>
-                    )}
-                </div>
+    <ul className="vertical-stepper">
+      {steps.map((step, index) => {
+        const isCompleted = currentIndex > index || status === 'COMPLETED';
+        const isActive = currentIndex === index && status !== 'COMPLETED';
+
+        return (
+          <li key={step.key} style={{ marginBottom: '20px', listStyle: 'none' }}>
+            <div style={{ fontWeight: 500, marginBottom: '6px', color: isCompleted ? '#386A20' : (isActive ? '#202124' : '#79747E'), fontSize: '0.95rem' }}>
+              {step.label}
+            </div>
+            <div style={{ width: '100%', backgroundColor: '#E0E0E0', borderRadius: '6px', height: '10px', overflow: 'hidden' }}>
+                <div 
+                  style={{ 
+                    width: isCompleted ? '100%' : (isActive ? `${stageProgress}%` : '0%'),
+                    backgroundColor: '#386A20',
+                    height: '100%',
+                    borderRadius: '6px',
+                    transition: 'width 0.5s ease'
+                  }}
+                ></div>
               </div>
-            );
-          })}
-        </div>
-      </div>
-    </div>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
