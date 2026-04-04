@@ -3,6 +3,8 @@ package com.example.backend.controller;
 import com.example.backend.model.AnalysisJob;
 import com.example.backend.service.ApifyService;
 import com.example.backend.service.JobService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +15,8 @@ import java.util.Map;
 @RequestMapping("/api/v1/jobs")
 @CrossOrigin(origins = "*") // For development, allow React frontend CORS
 public class JobController {
+
+    private static final Logger logger = LoggerFactory.getLogger(JobController.class);
 
     private final JobService jobService;
     private final ApifyService apifyService;
@@ -28,23 +32,39 @@ public class JobController {
     @PostMapping
     public ResponseEntity<AnalysisJob> initiateJob(@RequestBody Map<String, String> payload) {
         String url = payload.get("url");
+        logger.info("API: POST /api/v1/jobs - Received request to scan URL: {}", url);
+        
         if (url == null || url.trim().isEmpty()) {
+            logger.warn("API: POST /api/v1/jobs - Bad Request: URL is missing or empty.");
             return ResponseEntity.badRequest().build();
         }
         
-        AnalysisJob job = jobService.createJob(url);
-        
-        // Trigger the asynchronous Apify scraping workflow
-        apifyService.triggerScraping(job);
-        
-        return ResponseEntity.ok(job);
+        try {
+            AnalysisJob job = jobService.createJob(url);
+            logger.debug("API: POST /api/v1/jobs - Created job ID: {}", job.getJobId());
+            
+            // Trigger the asynchronous Apify scraping workflow
+            apifyService.triggerScraping(job);
+            
+            return ResponseEntity.ok(job);
+        } catch (Exception e) {
+            logger.error("API: POST /api/v1/jobs - Internal Server Error: {}", e.getMessage());
+            return ResponseEntity.internalServerError().build();
+        }
     }
 
     @GetMapping("/{jobId}")
     public ResponseEntity<AnalysisJob> getJobStatus(@PathVariable String jobId) {
+        logger.info("API: GET /api/v1/jobs/{} - Status check received", jobId);
         return jobService.getJob(jobId)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+                .map(job -> {
+                    logger.debug("API: GET /api/v1/jobs/{} - Returning status: {}", jobId, job.getStatus());
+                    return ResponseEntity.ok(job);
+                })
+                .orElseGet(() -> {
+                    logger.warn("API: GET /api/v1/jobs/{} - Job not found.", jobId);
+                    return ResponseEntity.notFound().build();
+                });
     }
 
     @GetMapping("/{jobId}/download")
