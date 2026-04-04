@@ -52,4 +52,12 @@ public class JobService {
         sseService.sendUpdate(jobId, newStatus.name());
         return saved;
     }
+
+    public void saveJobResult(String jobId, String resultJson) {
+        logger.info("Saving ML inference result for Job {}", jobId);
+        repository.findById(jobId).ifPresent(job -> {
+            job.setResult(resultJson);
+            repository.save(job);
+        });
+    }
 }

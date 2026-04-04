@@ -2,6 +2,7 @@ package com.example.backend.service;
 
 import com.example.backend.config.RabbitMQConfig;
 import com.example.backend.model.JobStatus;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,16 +19,19 @@ public class RabbitMQListener {
     private final FileGeneratorService fileGeneratorService;
     private final JobService jobService;
     private final SseService sseService;
+    private final ObjectMapper objectMapper;
 
     @Autowired
     public RabbitMQListener(TruthTableService truthTableService, 
                             FileGeneratorService fileGeneratorService, 
                             JobService jobService,
-                            SseService sseService) {
+                            SseService sseService,
+                            ObjectMapper objectMapper) {
         this.truthTableService = truthTableService;
         this.fileGeneratorService = fileGeneratorService;
         this.jobService = jobService;
         this.sseService = sseService;
+        this.objectMapper = objectMapper;
     }
 
     @RabbitListener(queues = RabbitMQConfig.RESULTS_QUEUE)
@@ -57,6 +61,13 @@ public class RabbitMQListener {
             
             String username = i < usernames.size() ? usernames.get(i) : "unknown_" + i;
             categorized.get(result).add(username);
+        }
+
+        try {
+            String jsonResult = objectMapper.writeValueAsString(message);
+            jobService.saveJobResult(jobId, jsonResult);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         fileGeneratorService.generateCategorizedFiles(jobId, categorized);
