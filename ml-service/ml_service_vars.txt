@@ -1,0 +1,15 @@
+{
+  "RABBITMQ_HOST": "rabbitmq",
+  "RABBITMQ_PASS": "YOUR_RABBITMQ_PASSWORD",
+  "RABBITMQ_USER": "admin",
+  "RAILWAY_ENVIRONMENT": "production",
+  "RAILWAY_ENVIRONMENT_ID": "dbb130db-0a4b-4089-bfb0-84263e19b0ea",
+  "RAILWAY_ENVIRONMENT_NAME": "production",
+  "RAILWAY_PRIVATE_DOMAIN": "social-media-bot-detector.railway.internal",
+  "RAILWAY_PROJECT_ID": "24c4a7cb-826b-4429-a9c0-5f5c3b93cd20",
+  "RAILWAY_PROJECT_NAME": "social-media-bot-detector",
+  "RAILWAY_SERVICE_BACKEND_URL": "backend-production-95ee.up.railway.app",
+  "RAILWAY_SERVICE_FRONTEND_URL": "authentic-success-production-7744.up.railway.app",
+  "RAILWAY_SERVICE_ID": "0ee2b8b4-0614-47c0-a869-2b5ef8978e92",
+  "RAILWAY_SERVICE_NAME": "ml-service"
+}

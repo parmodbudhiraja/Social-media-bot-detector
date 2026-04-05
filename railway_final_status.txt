@@ -1,0 +1,3 @@
+﻿Project: social-media-bot-detector
+Environment: production
+Service: None
