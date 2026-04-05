@@ -51,7 +51,8 @@ The application relies on environment variables to securely handle API tokens.
    ```
 
 ### 3. Build and Run the Stack
-Initialize all services (PostgreSQL, RabbitMQ, ML Service, Backend, and Frontend) with a single command:
+1. Ensure that Docker Desktop is running.
+2. Initialize all services (PostgreSQL, RabbitMQ, ML Service, Backend, and Frontend) with a single command:
 ```bash
 docker-compose up -d --build
 ```
