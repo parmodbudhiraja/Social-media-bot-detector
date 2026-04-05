@@ -7,7 +7,7 @@ A full-stack application to automatically scrape, process, and classify the enga
 ## 🚀 Deployed Project
 The application is live at:
 **[https://authentic-success-production-7744.up.railway.app/](https://authentic-success-production-7744.up.railway.app/)**
-
+Prefer running it in incognito mode.
 ---
 
 ## 📽️ Project Demo
