@@ -48,6 +48,21 @@ public class SseService {
         try {
             emitter.send(SseEmitter.event().name("CONNECT").data("Connected for job " + jobId));
             
+            // Send a ping every 25 seconds to keep the Railway connection alive
+            new Thread(() -> {
+                while (emitters.containsKey(jobId)) {
+                    try {
+                        Thread.sleep(25000);
+                        SseEmitter e = emitters.get(jobId);
+                        if (e != null) {
+                            e.send(SseEmitter.event().name("PING").data("keep-alive"));
+                        }
+                    } catch (Exception ex) {
+                        break;
+                    }
+                }
+            }).start();
+
             repository.findById(jobId).ifPresent(job -> {
                 try {
                     logger.debug("Job {}: Sending initial status sync: {}", jobId, job.getStatus());
