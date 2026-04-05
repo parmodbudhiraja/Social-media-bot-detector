@@ -41,8 +41,9 @@ public class ApifyService {
         jobService.updateJobStatus(job.getJobId(), JobStatus.SCRAPING);
         
         Map<String, Object> payload = Map.of(
-            "directUrls", new String[]{job.getUrl()},
-            "resultsLimit", 100
+            "directUrls", List.of(job.getUrl()),
+            "resultsLimit", 50,
+            "proxyConfiguration", Map.of("useApifyProxy", true)
         );
 
         webClient.post()
@@ -136,7 +137,8 @@ public class ApifyService {
         List<String> usernames = new ArrayList<>(userCommentsMap.keySet());
         
         Map<String, Object> payload = Map.of(
-            "usernames", usernames
+            "usernames", usernames,
+            "proxyConfiguration", Map.of("useApifyProxy", true)
         );
 
         webClient.post()
