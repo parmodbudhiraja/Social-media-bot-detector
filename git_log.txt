@@ -1,0 +1,20 @@
+2e667d8 test(backend): add unit tests for Apify integrations and messaging edge cases
+73b5b74 test(ml-service): add pytest suite for feature extraction and consumer edge cases
+0c6f6fd Delete render.yaml
+9d7b3ad Create render.yaml
+838788f fix: add missing time import in ML consumer to prevent NameError during RabbitMQ retry
+50257a2 feat: add colored badges, M3 table, Download buttons, and Extract the user IDs column
+b048a68 feat: rebuild stepper as vertical progress bars with green fill for Queuing, Scraping, Analyzing stages
+6c2565a refactor: replace Google-style layout with M3 surface container and outlined input form
+c86c946 feat: update page title and add network-background class to body
+9d1cee6 style: add Material Design 3 theme variables, badge styles, and M3 component classes
+6044640 feat: add network graph SVG background asset
+da59841 chore: add .env.example template and update .gitignore to exclude real tokens
+a1ebd86 feat(frontend): add per-stage progress bar with live percentage indicator to pipeline stepper
+1b1b9db feat(frontend): implement 4-category classification table (100% fake, maybe fake, maybe real, 100% real) with .txt downloads
+c645884 feat(frontend): redesign App to Google Material Design 3 light theme with Roboto typography
+00d36ed fix(backend): persist ML inference results to PostgreSQL via RabbitMQListener and JobService
+6c94268 fix(backend): add Jackson2JsonMessageConverter to RabbitMQ to fix Java-Python serialization mismatch
+a15694a feat(ml): scale CTGAN synthetic dataset generation to 10M rows with chunked memory-safe writes
+82887f2 feat(backend): Spring Boot orchestration with RabbitMQ and Apify integration
+077eb3e feat(ml): implementation of LSTM and Random Forest models with Python inference
