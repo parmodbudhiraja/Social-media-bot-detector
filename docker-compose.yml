@@ -45,6 +45,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: instagram-analyzer-backend
+    hostname: backend
     ports:
       - "8080:8080"
     environment:
@@ -71,6 +72,9 @@ services:
     container_name: instagram-analyzer-frontend
     ports:
       - "80:80"
+    environment:
+      - BACKEND_URL=http://backend:8080
+      - PORT=80
     networks:
       - bot-detector-net
     depends_on:

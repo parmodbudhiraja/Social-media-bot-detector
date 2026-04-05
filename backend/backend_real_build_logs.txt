@@ -1,0 +1,934 @@
+﻿[INFO] Selecting previously unselected package rpcsvc-proto.
+
+[INFO] Preparing to unpack .../18-rpcsvc-proto_1.4.3-1_amd64.deb ...
+
+[INFO] Unpacking rpcsvc-proto (1.4.3-1) ...
+
+[INFO] Selecting previously unselected package libc6-dev:amd64.
+
+[INFO] Preparing to unpack .../19-libc6-dev_2.41-12+deb13u2_amd64.deb ...
+
+[INFO] Unpacking libc6-dev:amd64 (2.41-12+deb13u2) ...
+
+[INFO] Selecting previously unselected package libisl23:amd64.
+
+[INFO] Preparing to unpack .../20-libisl23_0.27-1_amd64.deb ...
+
+[INFO] Unpacking libisl23:amd64 (0.27-1) ...
+
+[INFO] Selecting previously unselected package libmpfr6:amd64.
+
+[INFO] Preparing to unpack .../21-libmpfr6_4.2.2-1_amd64.deb ...
+
+[INFO] Unpacking libmpfr6:amd64 (4.2.2-1) ...
+
+[INFO] Selecting previously unselected package libmpc3:amd64.
+
+[INFO] Preparing to unpack .../22-libmpc3_1.3.1-1+b3_amd64.deb ...
+
+[INFO] Unpacking libmpc3:amd64 (1.3.1-1+b3) ...
+
+[INFO] Selecting previously unselected package cpp-14-x86-64-linux-gnu.
+
+[INFO] Preparing to unpack .../23-cpp-14-x86-64-linux-gnu_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking cpp-14-x86-64-linux-gnu (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package cpp-14.
+
+[INFO] Preparing to unpack .../24-cpp-14_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking cpp-14 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package cpp-x86-64-linux-gnu.
+
+[INFO] Preparing to unpack .../25-cpp-x86-64-linux-gnu_4%3a14.2.0-1_amd64.deb ...
+
+[INFO] Unpacking cpp-x86-64-linux-gnu (4:14.2.0-1) ...
+
+[INFO] Selecting previously unselected package cpp.
+
+[INFO] Preparing to unpack .../26-cpp_4%3a14.2.0-1_amd64.deb ...
+
+[INFO] Unpacking cpp (4:14.2.0-1) ...
+
+[INFO] Selecting previously unselected package libcc1-0:amd64.
+
+[INFO] Preparing to unpack .../27-libcc1-0_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libcc1-0:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libgomp1:amd64.
+
+[INFO] Preparing to unpack .../28-libgomp1_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libgomp1:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libitm1:amd64.
+
+[INFO] Preparing to unpack .../29-libitm1_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libitm1:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libatomic1:amd64.
+
+[INFO] Preparing to unpack .../30-libatomic1_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libatomic1:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libasan8:amd64.
+
+[INFO] Preparing to unpack .../31-libasan8_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libasan8:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package liblsan0:amd64.
+
+[INFO] Preparing to unpack .../32-liblsan0_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking liblsan0:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libtsan2:amd64.
+
+[INFO] Preparing to unpack .../33-libtsan2_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libtsan2:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libubsan1:amd64.
+
+[INFO] Preparing to unpack .../34-libubsan1_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libubsan1:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libhwasan0:amd64.
+
+[INFO] Preparing to unpack .../35-libhwasan0_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libhwasan0:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libquadmath0:amd64.
+
+[INFO] Preparing to unpack .../36-libquadmath0_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libquadmath0:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package libgcc-14-dev:amd64.
+
+[INFO] Preparing to unpack .../37-libgcc-14-dev_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libgcc-14-dev:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package gcc-14-x86-64-linux-gnu.
+
+[INFO] Preparing to unpack .../38-gcc-14-x86-64-linux-gnu_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking gcc-14-x86-64-linux-gnu (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package gcc-14.
+
+[INFO] Preparing to unpack .../39-gcc-14_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking gcc-14 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package gcc-x86-64-linux-gnu.
+
+[INFO] Preparing to unpack .../40-gcc-x86-64-linux-gnu_4%3a14.2.0-1_amd64.deb ...
+
+[INFO] Unpacking gcc-x86-64-linux-gnu (4:14.2.0-1) ...
+
+[INFO] Selecting previously unselected package gcc.
+
+[INFO] Preparing to unpack .../41-gcc_4%3a14.2.0-1_amd64.deb ...
+
+[INFO] Unpacking gcc (4:14.2.0-1) ...
+
+[INFO] Selecting previously unselected package libstdc++-14-dev:amd64.
+
+[INFO] Preparing to unpack .../42-libstdc++-14-dev_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking libstdc++-14-dev:amd64 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package g++-14-x86-64-linux-gnu.
+
+[INFO] Preparing to unpack .../43-g++-14-x86-64-linux-gnu_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking g++-14-x86-64-linux-gnu (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package g++-14.
+
+[INFO] Preparing to unpack .../44-g++-14_14.2.0-19_amd64.deb ...
+
+[INFO] Unpacking g++-14 (14.2.0-19) ...
+
+[INFO] Selecting previously unselected package g++-x86-64-linux-gnu.
+
+[INFO] Preparing to unpack .../45-g++-x86-64-linux-gnu_4%3a14.2.0-1_amd64.deb ...
+
+[INFO] Unpacking g++-x86-64-linux-gnu (4:14.2.0-1) ...
+
+[INFO] Selecting previously unselected package g++.
+
+[INFO] Preparing to unpack .../46-g++_4%3a14.2.0-1_amd64.deb ...
+
+[INFO] Unpacking g++ (4:14.2.0-1) ...
+
+[INFO] Selecting previously unselected package make.
+
+[INFO] Preparing to unpack .../47-make_4.4.1-2_amd64.deb ...
+
+[INFO] Unpacking make (4.4.1-2) ...
+
+[INFO] Selecting previously unselected package libdpkg-perl.
+
+[INFO] Preparing to unpack .../48-libdpkg-perl_1.22.22_all.deb ...
+
+[INFO] Unpacking libdpkg-perl (1.22.22) ...
+
+[INFO] Selecting previously unselected package patch.
+
+[INFO] Preparing to unpack .../49-patch_2.8-2_amd64.deb ...
+
+[INFO] Unpacking patch (2.8-2) ...
+
+[INFO] Selecting previously unselected package dpkg-dev.
+
+[INFO] Preparing to unpack .../50-dpkg-dev_1.22.22_all.deb ...
+
+[INFO] Unpacking dpkg-dev (1.22.22) ...
+
+[INFO] Selecting previously unselected package build-essential.
+
+[INFO] Preparing to unpack .../51-build-essential_12.12_amd64.deb ...
+
+[INFO] Unpacking build-essential (12.12) ...
+
+[INFO] Setting up libgdbm-compat4t64:amd64 (1.24-2) ...
+
+[INFO] Setting up binutils-common:amd64 (2.44-3) ...
+
+[INFO] Setting up linux-libc-dev (6.12.74-2) ...
+
+[INFO] Setting up libctf-nobfd0:amd64 (2.44-3) ...
+
+[INFO] Setting up libgomp1:amd64 (14.2.0-19) ...
+
+[INFO] Setting up bzip2 (1.0.8-6) ...
+
+[INFO] Setting up libsframe1:amd64 (2.44-3) ...
+
+[INFO] Setting up libjansson4:amd64 (2.14-2+b3) ...
+
+[INFO] Setting up rpcsvc-proto (1.4.3-1) ...
+
+[INFO] Setting up make (4.4.1-2) ...
+
+[INFO] Setting up libmpfr6:amd64 (4.2.2-1) ...
+
+[INFO] Setting up xz-utils (5.8.1-1) ...
+
+[INFO] update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzma.1.gz because associated file /usr/share/man/man1/xz.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/unlzma.1.gz because associated file /usr/share/man/man1/unxz.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzcat.1.gz because associated file /usr/share/man/man1/xzcat.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzmore.1.gz because associated file /usr/share/man/man1/xzmore.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzless.1.gz because associated file /usr/share/man/man1/xzless.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzdiff.1.gz because associated file /usr/share/man/man1/xzdiff.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzcmp.1.gz because associated file /usr/share/man/man1/xzcmp.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzgrep.1.gz because associated file /usr/share/man/man1/xzgrep.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzegrep.1.gz because associated file /usr/share/man/man1/xzegrep.1.gz (of link group lzma) doesn't exist
+
+[INFO] update-alternatives: warning: skip creation of /usr/share/man/man1/lzfgrep.1.gz because associated file /usr/share/man/man1/xzfgrep.1.gz (of link group lzma) doesn't exist
+
+[INFO] Setting up libquadmath0:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libmpc3:amd64 (1.3.1-1+b3) ...
+
+[INFO] Setting up libatomic1:amd64 (14.2.0-19) ...
+
+[INFO] Setting up patch (2.8-2) ...
+
+[INFO] Setting up libubsan1:amd64 (14.2.0-19) ...
+
+[INFO] Setting up perl-modules-5.40 (5.40.1-6) ...
+
+[INFO] Setting up libhwasan0:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libcrypt-dev:amd64 (1:4.4.38-1) ...
+
+[INFO] Setting up libasan8:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libtsan2:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libbinutils:amd64 (2.44-3) ...
+
+[INFO] Setting up libisl23:amd64 (0.27-1) ...
+
+[INFO] Setting up libc-dev-bin (2.41-12+deb13u2) ...
+
+[INFO] Setting up libcc1-0:amd64 (14.2.0-19) ...
+
+[INFO] Setting up liblsan0:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libitm1:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libctf0:amd64 (2.44-3) ...
+
+[INFO] Setting up libperl5.40:amd64 (5.40.1-6) ...
+
+[INFO] Setting up perl (5.40.1-6) ...
+
+[INFO] Setting up libgprofng0:amd64 (2.44-3) ...
+
+[INFO] Setting up cpp-14-x86-64-linux-gnu (14.2.0-19) ...
+
+[INFO] Setting up libdpkg-perl (1.22.22) ...
+
+[INFO] Setting up cpp-14 (14.2.0-19) ...
+
+[INFO] Setting up libc6-dev:amd64 (2.41-12+deb13u2) ...
+
+[INFO] Setting up libgcc-14-dev:amd64 (14.2.0-19) ...
+
+[INFO] Setting up libstdc++-14-dev:amd64 (14.2.0-19) ...
+
+[INFO] Setting up binutils-x86-64-linux-gnu (2.44-3) ...
+
+[INFO] Setting up cpp-x86-64-linux-gnu (4:14.2.0-1) ...
+
+[INFO] Setting up binutils (2.44-3) ...
+
+[INFO] Setting up dpkg-dev (1.22.22) ...
+
+[INFO] Setting up cpp (4:14.2.0-1) ...
+
+[INFO] Setting up gcc-14-x86-64-linux-gnu (14.2.0-19) ...
+
+[INFO] Setting up gcc-x86-64-linux-gnu (4:14.2.0-1) ...
+
+[INFO] Setting up gcc-14 (14.2.0-19) ...
+
+[INFO] Setting up g++-14-x86-64-linux-gnu (14.2.0-19) ...
+
+[INFO] Setting up g++-x86-64-linux-gnu (4:14.2.0-1) ...
+
+[INFO] Setting up g++-14 (14.2.0-19) ...
+
+[INFO] Setting up gcc (4:14.2.0-1) ...
+
+[INFO] Setting up g++ (4:14.2.0-1) ...
+
+[INFO] update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+
+[INFO] Setting up build-essential (12.12) ...
+
+[INFO] Processing triggers for libc-bin (2.41-12+deb13u2) ...
+
+[INFO] [3/8] RUN apt-get update && apt-get install -y --no-install-recommends     build-essential     && rm -rf /var/lib/apt/lists/*
+[INFO] [4/8] COPY requirements.txt .
+[INFO] [4/8] COPY requirements.txt .
+[INFO] [5/8] RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu &&     pip install --no-cache-dir -r requirements.txt
+[INFO] Looking in indexes: https://download.pytorch.org/whl/cpu
+
+[INFO] Collecting torch
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+
+[INFO] Collecting jinja2
+
+[INFO]   Obtaining dependency information for jinja2 from https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+
+[INFO] Discarding https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (from https://download.pytorch.org/whl/cpu/jinja2/): Requested jinja2 from https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (from torch) has inconsistent Name: expected 'jinja2', but metadata has 'Jinja2'
+
+[INFO]   Obtaining dependency information for jinja2 from https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+
+[INFO] Discarding https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl#sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d (from https://download.pytorch.org/whl/cpu/jinja2/): Requested jinja2 from https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl#sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d (from torch) has inconsistent Name: expected 'jinja2', but metadata has 'Jinja2'
+
+[INFO]   Downloading https://download.pytorch.org/whl/Jinja2-3.1.3-py3-none-any.whl (133 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 133.2/133.2 kB 37.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting fsspec>=0.8.5
+
+[INFO]   Obtaining dependency information for fsspec>=0.8.5 from https://files.pythonhosted.org/packages/e6/ab/fb21f4c939bb440104cc2b396d3be1d9b7a9fd3c6c2a53d98c45b3d7c954/fsspec-2026.2.0-py3-none-any.whl.metadata
+
+[INFO]   Downloading fsspec-2026.2.0-py3-none-any.whl.metadata (10 kB)
+
+[INFO] Collecting filelock
+
+[INFO]   Obtaining dependency information for filelock from https://files.pythonhosted.org/packages/a4/a5/842ae8f0c08b61d6484b52f99a03510a3a72d23141942d216ebe81fefbce/filelock-3.25.2-py3-none-any.whl.metadata
+
+[INFO]   Downloading filelock-3.25.2-py3-none-any.whl.metadata (2.0 kB)
+
+[INFO] Collecting typing-extensions>=4.10.0
+
+[INFO]   Obtaining dependency information for typing-extensions>=4.10.0 from https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+
+[INFO] Discarding https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl (from https://download.pytorch.org/whl/cpu/typing-extensions/): Requested typing-extensions>=4.10.0 from https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl (from torch) has inconsistent Name: expected 'typing-extensions', but metadata has 'typing_extensions'
+
+[INFO]   Obtaining dependency information for typing-extensions>=4.10.0 from https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
+
+[INFO] Discarding https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl (from https://download.pytorch.org/whl/cpu/typing-extensions/): Requested typing-extensions>=4.10.0 from https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl (from torch) has inconsistent Name: expected 'typing-extensions', but metadata has 'typing_extensions'
+
+[INFO]   Obtaining dependency information for typing-extensions>=4.10.0 from https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+
+[INFO] Discarding https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (from https://download.pytorch.org/whl/cpu/typing-extensions/): Requested typing-extensions>=4.10.0 from https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (from torch) has inconsistent Name: expected 'typing-extensions', but metadata has 'typing_extensions'
+
+[INFO] Collecting torch
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.10.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.10.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.9.1%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.9.1%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.9.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.9.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.8.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.8.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (27 kB)
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.7.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.7.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (27 kB)
+
+[INFO]   Obtaining dependency information for torch from https://download.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp310-cp310-linux_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp310-cp310-linux_x86_64.whl.metadata (26 kB)
+
+[INFO]   Downloading https://download.pytorch.org/whl/cpu/torch-2.5.1%2Bcpu-cp310-cp310-linux_x86_64.whl (174.7 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 174.7/174.7 MB 309.4 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting sympy==1.13.1
+
+[INFO]   Obtaining dependency information for sympy==1.13.1 from https://files.pythonhosted.org/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl.metadata
+
+[INFO]   Downloading sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+
+[INFO] Collecting networkx
+
+[INFO]   Obtaining dependency information for networkx from https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl.metadata
+
+[INFO]   Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+
+[INFO] Collecting typing-extensions>=4.8.0
+
+[INFO]   Downloading https://download.pytorch.org/whl/typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+
+[INFO] Collecting mpmath<1.4,>=1.1.0
+
+[INFO]   Obtaining dependency information for mpmath<1.4,>=1.1.0 from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl.metadata
+
+[INFO]   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+
+[INFO] Collecting MarkupSafe>=2.0
+
+[INFO]   Obtaining dependency information for MarkupSafe>=2.0 from https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+
+[INFO]   Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+
+[INFO] Downloading sympy-1.13.1-py3-none-any.whl (6.2 MB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 6.2/6.2 MB 117.5 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading filelock-3.25.2-py3-none-any.whl (26 kB)
+
+[INFO] Downloading fsspec-2026.2.0-py3-none-any.whl (202 kB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 202.5/202.5 kB 234.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 1.7/1.7 MB 219.0 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+
+[INFO] Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 536.2/536.2 kB 439.6 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading sympy-1.13.1-py3-none-any.whl (6.2 MB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 6.2/6.2 MB 254.5 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading filelock-3.25.2-py3-none-any.whl (26 kB)
+
+[INFO] Downloading fsspec-2026.2.0-py3-none-any.whl (202 kB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 202.5/202.5 kB 209.3 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 1.7/1.7 MB 296.7 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+
+[INFO] Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+
+[INFO]    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 536.2/536.2 kB 319.4 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch
+
+[INFO] Successfully installed MarkupSafe-3.0.3 filelock-3.25.2 fsspec-2026.2.0 jinja2-3.1.3 mpmath-1.3.0 networkx-3.4.2 sympy-1.13.1 torch-2.5.1+cpu typing-extensions-4.9.0
+
+[INFO] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[INFO] Collecting pika
+
+[INFO]   Downloading pika-1.3.2-py3-none-any.whl (155 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 155.4/155.4 kB 8.7 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting fastapi
+
+[INFO]   Downloading fastapi-0.135.3-py3-none-any.whl (117 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 117.7/117.7 kB 92.8 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting uvicorn
+
+[INFO]   Downloading uvicorn-0.43.0-py3-none-any.whl (68 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 68.6/68.6 kB 323.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting pandas
+
+[INFO]   Downloading pandas-2.3.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 12.8/12.8 MB 334.8 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting scikit-learn
+
+[INFO]   Downloading scikit_learn-1.7.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.7 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 9.7/9.7 MB 248.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting ctgan
+
+[INFO]   Downloading ctgan-0.12.1-py3-none-any.whl (25 kB)
+
+[INFO] Collecting modal
+
+[INFO]   Downloading modal-1.4.1-py3-none-any.whl (787 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 787.8/787.8 kB 377.5 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting pytest
+
+[INFO]   Downloading pytest-9.0.2-py3-none-any.whl (374 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 374.8/374.8 kB 233.6 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting typing-inspection>=0.4.2
+
+[INFO]   Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+
+[INFO] Collecting starlette>=0.46.0
+
+[INFO]   Downloading starlette-1.0.0-py3-none-any.whl (72 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 72.7/72.7 kB 271.0 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting pydantic>=2.9.0
+
+[INFO]   Downloading pydantic-2.12.5-py3-none-any.whl (463 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 463.6/463.6 kB 362.3 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Requirement already satisfied: typing-extensions>=4.8.0 in /usr/local/lib/python3.10/site-packages (from fastapi->-r requirements.txt (line 2)) (4.9.0)
+
+[INFO] Collecting annotated-doc>=0.0.2
+
+[INFO]   Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+
+[INFO] Collecting click>=7.0
+
+[INFO]   Downloading click-8.3.2-py3-none-any.whl (108 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 108.4/108.4 kB 313.1 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting h11>=0.8
+
+[INFO]   Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+
+[INFO] Collecting pytz>=2020.1
+
+[INFO]   Downloading pytz-2026.1.post1-py2.py3-none-any.whl (510 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 510.5/510.5 kB 404.5 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting python-dateutil>=2.8.2
+
+[INFO]   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 229.9/229.9 kB 433.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting tzdata>=2022.7
+
+[INFO]   Downloading tzdata-2026.1-py2.py3-none-any.whl (348 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 349.0/349.0 kB 373.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting numpy>=1.22.4
+
+[INFO]   Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 16.8/16.8 MB 382.3 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting threadpoolctl>=3.1.0
+
+[INFO]   Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+
+[INFO] Collecting scipy>=1.8.0
+
+[INFO]   Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 37.7/37.7 MB 392.6 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting joblib>=1.2.0
+
+[INFO]   Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 309.1/309.1 kB 357.6 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting rdt>=1.14.0
+
+[INFO]   Downloading rdt-1.20.0-py3-none-any.whl (74 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 74.5/74.5 kB 359.7 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Requirement already satisfied: torch>=1.13.0 in /usr/local/lib/python3.10/site-packages (from ctgan->-r requirements.txt (line 6)) (2.5.1+cpu)
+
+[INFO] Collecting tqdm>=4.29
+
+[INFO]   Downloading tqdm-4.67.3-py3-none-any.whl (78 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 78.4/78.4 kB 361.0 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting aiohttp
+
+[INFO]   Downloading aiohttp-3.13.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 1.7/1.7 MB 317.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting protobuf!=4.24.0,<7.0,>=3.19
+
+[INFO]   Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 323.4/323.4 kB 350.3 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting synchronicity~=0.12.1
+
+[INFO]   Downloading synchronicity-0.12.1-py3-none-any.whl (40 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 41.0/41.0 kB 195.1 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting toml
+
+[INFO]   Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+
+[INFO] Collecting types-certifi
+
+[INFO]   Downloading types_certifi-2021.10.8.3-py3-none-any.whl (2.1 kB)
+
+[INFO] Collecting types-toml
+
+[INFO]   Downloading types_toml-0.10.8.20240310-py3-none-any.whl (4.8 kB)
+
+[INFO] Collecting certifi
+
+[INFO]   Downloading certifi-2026.2.25-py3-none-any.whl (153 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 153.7/153.7 kB 245.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting typer>=0.9
+
+[INFO]   Downloading typer-0.24.1-py3-none-any.whl (56 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 56.1/56.1 kB 298.8 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting rich>=12.0.0
+
+[INFO]   Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 310.5/310.5 kB 440.7 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting cbor2
+
+[INFO]   Downloading cbor2-5.9.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (255 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 255.5/255.5 kB 436.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting grpclib<0.4.10,>=0.4.7
+
+[INFO]   Downloading grpclib-0.4.9-py3-none-any.whl (77 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 77.1/77.1 kB 334.8 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting watchfiles
+
+[INFO]   Downloading watchfiles-1.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (455 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 455.6/455.6 kB 471.8 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting tomli>=1
+
+[INFO]   Downloading tomli-2.4.1-py3-none-any.whl (14 kB)
+
+[INFO] Collecting iniconfig>=1.0.1
+
+[INFO]   Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+
+[INFO] Collecting packaging>=22
+
+[INFO]   Downloading packaging-26.0-py3-none-any.whl (74 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 74.4/74.4 kB 214.1 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting pluggy<2,>=1.5
+
+[INFO]   Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+
+[INFO] Collecting exceptiongroup>=1
+
+[INFO]   Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+
+[INFO] Collecting pygments>=2.7.2
+
+[INFO]   Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 1.2/1.2 MB 404.5 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting h2<5,>=3.1.0
+
+[INFO]   Downloading h2-4.3.0-py3-none-any.whl (61 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 61.8/61.8 kB 300.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting multidict
+
+[INFO]   Downloading multidict-6.7.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (243 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 243.3/243.3 kB 361.4 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting pydantic-core==2.41.5
+
+[INFO]   Downloading pydantic_core-2.41.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 2.1/2.1 MB 398.8 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting typing-extensions>=4.8.0
+
+[INFO]   Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 44.6/44.6 kB 102.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting annotated-types>=0.6.0
+
+[INFO]   Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+
+[INFO] Collecting six>=1.5
+
+[INFO]   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+
+[INFO] Collecting Faker!=37.11.0,>=17
+
+[INFO]   Downloading faker-40.12.0-py3-none-any.whl (2.0 MB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 2.0/2.0 MB 402.1 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting markdown-it-py>=2.2.0
+
+[INFO]   Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 87.3/87.3 kB 169.0 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting anyio<5,>=3.6.2
+
+[INFO]   Downloading anyio-4.13.0-py3-none-any.whl (114 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 114.4/114.4 kB 418.7 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Requirement already satisfied: networkx in /usr/local/lib/python3.10/site-packages (from torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (3.4.2)
+
+[INFO] Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/site-packages (from torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (3.1.3)
+
+[INFO] Requirement already satisfied: filelock in /usr/local/lib/python3.10/site-packages (from torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (3.25.2)
+
+[INFO] Requirement already satisfied: sympy==1.13.1 in /usr/local/lib/python3.10/site-packages (from torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (1.13.1)
+
+[INFO] Requirement already satisfied: fsspec in /usr/local/lib/python3.10/site-packages (from torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (2026.2.0)
+
+[INFO] Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.10/site-packages (from sympy==1.13.1->torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (1.3.0)
+
+[INFO] Collecting shellingham>=1.3.0
+
+[INFO]   Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+
+[INFO] Collecting attrs>=17.3.0
+
+[INFO]   Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 67.5/67.5 kB 360.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting async-timeout<6.0,>=4.0
+
+[INFO]   Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+
+[INFO] Collecting propcache>=0.2.0
+
+[INFO]   Downloading propcache-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (196 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 196.9/196.9 kB 212.3 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting aiohappyeyeballs>=2.5.0
+
+[INFO]   Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+
+[INFO] Collecting aiosignal>=1.4.0
+
+[INFO]   Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+
+[INFO] Collecting frozenlist>=1.1.1
+
+[INFO]   Downloading frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (219 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 219.5/219.5 kB 288.7 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting yarl<2.0,>=1.17.0
+
+[INFO]   Downloading yarl-1.23.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (102 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 102.8/102.8 kB 230.2 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting idna>=2.8
+
+[INFO]   Downloading idna-3.11-py3-none-any.whl (71 kB)
+
+[INFO]      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 71.0/71.0 kB 348.9 MB/s eta 0:00:00
+[INFO] 
+
+[INFO] Collecting hyperframe<7,>=6.1
+
+[INFO]   Downloading hyperframe-6.1.0-py3-none-any.whl (13 kB)
+
+[INFO] Collecting hpack<5,>=4.1
+
+[INFO]   Downloading hpack-4.1.0-py3-none-any.whl (34 kB)
+
+[INFO] Collecting mdurl~=0.1
+
+[INFO]   Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+
+[INFO] Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/site-packages (from jinja2->torch>=1.13.0->ctgan->-r requirements.txt (line 6)) (3.0.3)
+
+[INFO] Installing collected packages: types-certifi, pytz, tzdata, typing-extensions, types-toml, tqdm, tomli, toml, threadpoolctl, six, shellingham, pygments, protobuf, propcache, pluggy, pika, packaging, numpy, mdurl, joblib, iniconfig, idna, hyperframe, hpack, h11, frozenlist, Faker, click, certifi, cbor2, attrs, async-timeout, annotated-types, annotated-doc, aiohappyeyeballs, uvicorn, typing-inspection, synchronicity, scipy, python-dateutil, pydantic-core, multidict, markdown-it-py, h2, exceptiongroup, aiosignal, yarl, scikit-learn, rich, pytest, pydantic, pandas, grpclib, anyio, watchfiles, typer, starlette, rdt, aiohttp, modal, fastapi, ctgan
+
+[INFO]   Attempting uninstall: typing-extensions
+
+[INFO]     Found existing installation: typing_extensions 4.9.0
+
+[INFO]     Uninstalling typing_extensions-4.9.0:
+
+[INFO]       Successfully uninstalled typing_extensions-4.9.0
+
+[INFO] Successfully installed Faker-40.12.0 aiohappyeyeballs-2.6.1 aiohttp-3.13.5 aiosignal-1.4.0 annotated-doc-0.0.4 annotated-types-0.7.0 anyio-4.13.0 async-timeout-5.0.1 attrs-26.1.0 cbor2-5.9.0 certifi-2026.2.25 click-8.3.2 ctgan-0.12.1 exceptiongroup-1.3.1 fastapi-0.135.3 frozenlist-1.8.0 grpclib-0.4.9 h11-0.16.0 h2-4.3.0 hpack-4.1.0 hyperframe-6.1.0 idna-3.11 iniconfig-2.3.0 joblib-1.5.3 markdown-it-py-4.0.0 mdurl-0.1.2 modal-1.4.1 multidict-6.7.1 numpy-2.2.6 packaging-26.0 pandas-2.3.3 pika-1.3.2 pluggy-1.6.0 propcache-0.4.1 protobuf-6.33.6 pydantic-2.12.5 pydantic-core-2.41.5 pygments-2.20.0 pytest-9.0.2 python-dateutil-2.9.0.post0 pytz-2026.1.post1 rdt-1.20.0 rich-14.3.3 scikit-learn-1.7.2 scipy-1.15.3 shellingham-1.5.4 six-1.17.0 starlette-1.0.0 synchronicity-0.12.1 threadpoolctl-3.6.0 toml-0.10.2 tomli-2.4.1 tqdm-4.67.3 typer-0.24.1 types-certifi-2021.10.8.3 types-toml-0.10.8.20240310 typing-extensions-4.15.0 typing-inspection-0.4.2 tzdata-2026.1 uvicorn-0.43.0 watchfiles-1.1.1 yarl-1.23.0
+
+[INFO] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[INFO] 
+[notice] A new release of pip is available: 23.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+[INFO] [5/8] RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu &&     pip install --no-cache-dir -r requirements.txt
+[INFO] [6/8] COPY . .
+[INFO] [6/8] COPY . .
+[INFO] [7/8] COPY start.sh .
+[INFO] [7/8] COPY start.sh .
+[INFO] [8/8] RUN chmod +x start.sh
+[INFO] [8/8] RUN chmod +x start.sh
+[INFO] exporting to docker image format
+[INFO] importing to docker
+[INFO] [auth] sharing credentials for production-us-west2.railway-registry.com
+[INFO] [auth] sharing credentials for production-us-west2.railway-registry.com
+[INFO] importing to docker
+[92mBuild time: 136.76 seconds[0m

@@ -34,7 +34,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post(`${API_BASE}/jobs`, { url }, { timeout: 15000 });
+      const response = await axios.post(`${API_BASE}/jobs`, { url }, { timeout: 30000 });
       setJobId(response.data.jobId);
     } catch (err) {
       setError("Failed to initiate analysis. Check connection.");

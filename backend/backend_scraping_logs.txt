@@ -1,0 +1,18 @@
+﻿node.exe : error: unexpected argument '--limit' found
+At C:\Users\Parmod Budhiraja\AppData\Roaming\npm\railway.ps1:24 
+char:5
++     & "node$exe"  
+"$basedir/node_modules/@railway/cli/bin/railway.js" ...
++     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: unexpect...' 
+   --limit' found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+  tip: to pass '--limit' as a value, use '-- --limit'
+
+Usage: railway.exe logs --service <SERVICE> [DEPLOYMENT_ID]
+
+For more information, try '--help'.
+

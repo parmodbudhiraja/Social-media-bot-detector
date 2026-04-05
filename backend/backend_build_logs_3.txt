@@ -1,0 +1,16 @@
+﻿node.exe : error: unrecognized subcommand 'logs'
+At C:\Users\Parmod Budhiraja\AppData\Roaming\npm\railway.ps1:24 
+char:5
++     & "node$exe"  
+"$basedir/node_modules/@railway/cli/bin/railway.js" ...
++     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: unrecognized 
+    subcommand 'logs':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Usage: railway.exe deployment <COMMAND>
+
+For more information, try '--help'.
+

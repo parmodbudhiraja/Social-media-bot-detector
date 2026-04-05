@@ -1,0 +1,37 @@
+﻿Starting Container
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-04-04 19:58:11.830 [34mINFO [0;39m [35m[main][0;39m [36mc.example.backend.BackendApplication[0;39m - Starting BackendApplication v0.0.1-SNAPSHOT using Java 11.0.30 on dcd9b93d5249 with PID 1 (/app/app.jar started by root in /app)
+2026-04-04 19:58:11.835 [39mDEBUG[0;39m [35m[main][0;39m [36mc.example.backend.BackendApplication[0;39m - Running with Spring Boot v2.7.18, Spring v5.3.31
+2026-04-04 19:58:11.836 [34mINFO [0;39m [35m[main][0;39m [36mc.example.backend.BackendApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2026-04-04 19:58:14.818 [34mINFO [0;39m [35m[main][0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-04 19:58:15.157 [34mINFO [0;39m [35m[main][0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 321 ms. Found 1 JPA repository interfaces.
+2026-04-04 19:58:17.413 [34mINFO [0;39m [35m[main][0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2026-04-04 19:58:17.500 [34mINFO [0;39m [35m[main][0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2026-04-04 19:58:17.501 [34mINFO [0;39m [35m[main][0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-04-04 19:58:17.987 [34mINFO [0;39m [35m[main][0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 5862 ms
+2026-04-04 19:58:19.110 [34mINFO [0;39m [35m[main][0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-04 19:58:17.987 [34mINFO [0;39m [35m[main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2026-04-04 19:58:19.480 [34mINFO [0;39m [35m[main][0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-04-04 19:58:20.293 [34mINFO [0;39m [35m[main][0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-04 19:58:20.702 [34mINFO [0;39m [35m[main][0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Starting...
+2026-04-04 19:58:21.315 [34mINFO [0;39m [35m[main][0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Start completed.
+2026-04-04 19:58:21.346 [34mINFO [0;39m [35m[main][0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-04-04 19:58:22.842 [34mINFO [0;39m [35m[main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-04 19:58:22.855 [34mINFO [0;39m [35m[main][0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04 19:58:26.706 [31mWARN [0;39m [35m[main][0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-04 19:58:27.207 [39mDEBUG[0;39m [35m[main][0;39m [36mo.s.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-04 19:58:27.726 [39mDEBUG[0;39m [35m[main][0;39m [36mo.s.w.s.m.m.a.RequestMappingHandlerMapping[0;39m - 6 mappings in 'requestMappingHandlerMapping'
+2026-04-04 19:58:27.896 [39mDEBUG[0;39m [35m[main][0;39m [36mo.s.w.s.h.SimpleUrlHandlerMapping[0;39m - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-04 19:58:27.979 [39mDEBUG[0;39m [35m[main][0;39m [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-04 19:58:28.796 [34mINFO [0;39m [35m[main][0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-04 19:58:28.799 [34mINFO [0;39m [35m[main][0;39m [36mo.s.a.r.c.CachingConnectionFactory[0;39m - Attempting to connect to: [rabbitmq.railway.internal:5672]
+2026-04-04 19:58:29.097 [34mINFO [0;39m [35m[main][0;39m [36mo.s.a.r.c.CachingConnectionFactory[0;39m - Created new connection: rabbitConnectionFactory#1a96d94c:0/SimpleConnection@670f2466 [delegate=amqp://admin@10.206.158.233:5672/, localPort= 41322]
+2026-04-04 19:58:29.507 [34mINFO [0;39m [35m[main][0;39m [36mc.example.backend.BackendApplication[0;39m - Started BackendApplication in 19.402 seconds (JVM running for 21.073)

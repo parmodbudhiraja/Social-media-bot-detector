@@ -1,0 +1,2794 @@
+﻿Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\dist\assets 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\dist\assets' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\dist\images 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\dist\images' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+
+frontend\dist\favicon.svg:1:<svg 
+xmlns="http://www.w3.org/2000/svg" width="48" height="46" 
+fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 
+44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 
+0-2.262-2.262H10.287c-.92 
+0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 
+0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c
+.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 
+1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 
+1.473 1.088.89 1.83L25.947 44.94z" 
+style="fill:#863bff;fill:color(display-p3 .5252 .23 
+1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" 
+y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path 
+fill="#000" d="M25.842 
+44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 
+0-2.262-2.262H10.183c-.92 
+0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 
+0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.2
+14-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 
+10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 
+1.088.89 1.832L25.843 44.94z" 
+style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g 
+filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" 
+rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 
+.9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 
+-.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse 
+cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" 
+style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 
+1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 
+7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" 
+fill="#7e14ff" rx="5.508" ry="30.487" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.814 -25.913 
+-14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse 
+cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.814 -32.644 
+-3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" 
+cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 
+30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" 
+cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" 
+style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 
+1);fill-opacity:1" transform="rotate(93.35 24.506 
+48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" 
+cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.009 28.708 
+47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" 
+cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.009 28.708 
+47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" 
+cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g 
+filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" 
+rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 
+.4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 
+-6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" 
+cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" 
+style="fill:#47bfff;fill:color(display-p3 .2799 .748 
+1);fill-opacity:1" transform="rotate(37.892 41.412 
+6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" 
+cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(37.892 -1.88 
+38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" 
+cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(37.892 -1.88 
+38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" 
+cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(37.892 35.651 
+29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" 
+fill="#47bfff" rx="5.971" ry="15.297" 
+style="fill:#47bfff;fill:color(display-p3 .2799 .748 
+1);fill-opacity:1" transform="rotate(37.892 38.418 
+32.4)"/></g></g><defs><filter id="b" width="60.045" 
+height="41.654" x="-19.77" y="16.149" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="7.659"/></filter><filter id="c" width="90.34" 
+height="51.437" x="-54.613" y="-7.533" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="7.659"/></filter><filter id="d" width="79.355" 
+height="29.4" x="-49.64" y="2.03" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="e" width="79.579" 
+height="29.4" x="-45.045" y="20.029" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="f" width="79.579" 
+height="29.4" x="-43.513" y="21.178" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="g" width="74.749" 
+height="58.852" x="15.756" y="-17.901" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="7.659"/></filter><filter id="h" width="61.377" 
+height="25.362" x="23.548" y="2.284" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="i" width="61.377" 
+height="25.362" x="23.548" y="2.284" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="j" width="56.045" 
+height="63.649" x="-27.636" y="-22.853" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="k" width="54.814" 
+height="64.646" x="20.116" y="-38.415" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="l" width="33.541" 
+height="35.313" x="24.641" y="-11.323" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="m" width="54.814" 
+height="64.646" x="-29.286" y="6.009" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="n" width="54.814" 
+height="64.646" x="-29.286" y="6.009" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="o" width="54.814" 
+height="64.646" x="8.244" y="-2.416" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="p" width="39.409" 
+height="43.623" x="18.713" y="10.588" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter></defs></svg>
+frontend\dist\icons.svg:3:    <g 
+clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.73
+5c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79
+C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 
+2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 
+4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 
+2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156
+-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.39
+5-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
+frontend\dist\index.html:6:    <link rel="preconnect" 
+href="https://fonts.googleapis.com">
+frontend\dist\index.html:8:    <link href="https://fonts.googleap
+is.com/css2?family=Roboto:wght@300;400;500;700&display=swap" 
+rel="stylesheet">
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\.bin 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\.bin' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\.vite cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\.vite' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\.vite-temp cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\.vite-temp' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@babel cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@babel' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@emnapi cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@emnapi' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@eslint cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@eslint' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@eslint-community cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\@eslint-community' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@humanfs cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@humanfs' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@humanwhocodes cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\@humanwhocodes' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@jridgewell cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@jridgewell' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@oxc-project cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@oxc-project' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@rolldown cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@rolldown' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@types cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@types' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\@vitejs cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\@vitejs' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\acorn cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\acorn' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\acorn-jsx cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\acorn-jsx' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\ajv 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\ajv' 
+is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\ansi-styles cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\ansi-styles' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\argparse cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\argparse' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\asynckit cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\asynckit' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\autoprefixer cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\autoprefixer' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\axios cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\axios' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\balanced-match cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\balanced-match' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\baseline-browser-mapping 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\baseline-browser-m
+apping' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\brace-expansion cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\brace-expansion' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\browserslist cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\browserslist' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\call-bind-apply-helpers 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\call-bind-apply-he
+lpers' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\callsites cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\callsites' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\caniuse-lite cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\caniuse-lite' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\chalk cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\chalk' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\color-convert cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\color-convert' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\color-name cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\color-name' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\combined-stream cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\combined-stream' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\concat-map cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\concat-map' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\convert-source-map cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\convert-source-map' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\cookie cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\cookie' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\cross-spawn cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\cross-spawn' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\csstype cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\csstype' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\debug cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\debug' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\deep-is cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\deep-is' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\delayed-stream cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\delayed-stream' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\detect-libc cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\detect-libc' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\dunder-proto cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\dunder-proto' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\electron-to-chromium cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\electron-to-chromium' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\es-define-property cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\es-define-property' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\es-errors cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\es-errors' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\es-object-atoms cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\es-object-atoms' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\es-set-tostringtag cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\es-set-tostringtag' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\escalade cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\escalade' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\escape-string-regexp cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\escape-string-regexp' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\eslint cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\eslint' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\eslint-plugin-react-hooks 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\eslint-plugin-reac
+t-hooks' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\eslint-plugin-react-refresh 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\eslint-plugin-reac
+t-refresh' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\eslint-scope cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\eslint-scope' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\eslint-visitor-keys cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\eslint-visitor-keys' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\espree cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\espree' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\esquery cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\esquery' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\esrecurse cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\esrecurse' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\estraverse cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\estraverse' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\esutils cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\esutils' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\fast-deep-equal cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\fast-deep-equal' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\fast-json-stable-stringify 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\fast-json-stable-s
+tringify' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\fast-levenshtein cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\fast-levenshtein' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\fdir 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\fdir' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\file-entry-cache cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\file-entry-cache' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\find-up cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\find-up' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\flat-cache cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\flat-cache' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\flatted cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\flatted' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\follow-redirects cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\follow-redirects' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\form-data cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\form-data' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\fraction.js cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\fraction.js' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\function-bind cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\function-bind' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\gensync cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\gensync' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\get-intrinsic cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\get-intrinsic' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\get-proto cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\get-proto' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\glob-parent cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\glob-parent' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\globals cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\globals' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\gopd 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\gopd' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\has-flag cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\has-flag' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\has-symbols cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\has-symbols' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\has-tostringtag cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\has-tostringtag' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\hasown cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\hasown' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\hermes-estree cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\hermes-estree' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\hermes-parser cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\hermes-parser' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\ignore cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\ignore' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\import-fresh cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\import-fresh' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\imurmurhash cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\imurmurhash' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\is-extglob cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\is-extglob' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\is-glob cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\is-glob' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\isexe cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\isexe' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\js-tokens cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\js-tokens' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\js-yaml cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\js-yaml' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\jsesc cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\jsesc' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\json-buffer cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\json-buffer' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\json-schema-traverse cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\json-schema-traverse' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\json-stable-stringify-without
+-jsonify cannot be read: Access to the path 'C:\Users\Parmod Budh
+iraja\.gemini\antigravity\scratch\frontend\node_modules\json-stab
+le-stringify-without-jsonify' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\json5 cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\json5' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\keyv 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\keyv' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\levn 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\levn' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\lightningcss cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\lightningcss' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\lightningcss-win32-x64-msvc 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\lightningcss-win32
+-x64-msvc' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\locate-path cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\locate-path' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\lodash.merge cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\lodash.merge' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\lru-cache cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\lru-cache' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\math-intrinsics cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\math-intrinsics' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\mime-db cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\mime-db' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\mime-types cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\mime-types' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\minimatch cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\minimatch' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\ms 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\ms' 
+is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\nanoid cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\nanoid' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\natural-compare cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\natural-compare' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\node-releases cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\node-releases' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\optionator cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\optionator' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\p-limit cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\p-limit' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\p-locate cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\p-locate' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\parent-module cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\parent-module' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\path-exists cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\path-exists' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\path-key cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\path-key' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\picocolors cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\picocolors' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\picomatch cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\picomatch' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\postcss cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\postcss' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\postcss-value-parser cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\postcss-value-parser' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\prelude-ls cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\prelude-ls' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\proxy-from-env cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\proxy-from-env' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\punycode cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\punycode' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\react cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\react' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\react-dom cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\react-dom' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\react-router cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\react-router' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\react-router-dom cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\react-router-dom' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\resolve-from cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\resolve-from' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\rolldown cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\rolldown' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\scheduler cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\scheduler' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\semver cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\semver' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\set-cookie-parser cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\set-cookie-parser' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\shebang-command cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\shebang-command' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\shebang-regex cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\shebang-regex' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\source-map-js cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\source-map-js' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\strip-json-comments cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\strip-json-comments' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\supports-color cannot be 
+read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antig
+ravity\scratch\frontend\node_modules\supports-color' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\tailwindcss cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\tailwindcss' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\tinyglobby cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\tinyglobby' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\tslib cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\tslib' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\type-check cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\type-check' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\update-browserslist-db 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\update-browserslis
+t-db' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\uri-js cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\uri-js' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\vite 
+cannot be read: Access to the path 'C:\Users\Parmod Budhiraja\.ge
+mini\antigravity\scratch\frontend\node_modules\vite' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\which cannot be read: Access 
+to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity\scratc
+h\frontend\node_modules\which' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\word-wrap cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\word-wrap' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\yallist cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\yallist' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\yocto-queue cannot be read: 
+Access to the path 'C:\Users\Parmod Budhiraja\.gemini\antigravity
+\scratch\frontend\node_modules\yocto-queue' is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\zod 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\node_modules\zod' 
+is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod Budhiraja\.gemini\antigr
+avity\scratch\frontend\node_modules\zod-validation-error cannot 
+be read: Access to the path 'C:\Users\Parmod Budhiraja\.gemini\an
+tigravity\scratch\frontend\node_modules\zod-validation-error' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+frontend\node_modules\.package-lock.json:61:        "url": 
+"https://opencollective.com/babel"
+frontend\node_modules\.package-lock.json:248:    
+"node_modules/@emnapi/wasi-threads": {
+frontend\node_modules\.package-lock.json:250:      "resolved": "h
+ttps://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2
+.1.tgz",
+frontend\node_modules\.package-lock.json:272:        "url": 
+"https://opencollective.com/eslint"
+frontend\node_modules\.package-lock.json:288:        "url": 
+"https://opencollective.com/eslint"
+frontend\node_modules\.package-lock.json:304:      "integrity": "
+sha512-nJl2KGTlrf9GjLimgIru+V/mzgSK0ABCDQRvxw5BjURL7WfH5uoWmizbH7
+QB6MmnMBd8cIC9uceWnezL1VZWWw==",
+frontend\node_modules\.package-lock.json:363:        "url": 
+"https://opencollective.com/eslint"
+frontend\node_modules\.package-lock.json:376:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:389:        "url": 
+"https://eslint.org/donate"
+frontend\node_modules\.package-lock.json:451:        "url": 
+"https://github.com/sponsors/nzakas"
+frontend\node_modules\.package-lock.json:465:        "url": 
+"https://github.com/sponsors/nzakas"
+frontend\node_modules\.package-lock.json:525:        "url": 
+"https://github.com/sponsors/Boshen"
+frontend\node_modules\.package-lock.json:651:        "url": 
+"https://github.com/sponsors/epoberezkin"
+frontend\node_modules\.package-lock.json:667:        "url": 
+"https://github.com/chalk/ansi-styles?sponsor=1"
+frontend\node_modules\.package-lock.json:691:          "url": 
+"https://opencollective.com/postcss/"
+frontend\node_modules\.package-lock.json:695:          "url": 
+"https://tidelift.com/funding/github/npm/autoprefixer"
+frontend\node_modules\.package-lock.json:699:          "url": 
+"https://github.com/sponsors/ai"
+frontend\node_modules\.package-lock.json:770:          "url": 
+"https://opencollective.com/browserslist"
+frontend\node_modules\.package-lock.json:774:          "url": 
+"https://tidelift.com/funding/github/npm/browserslist"
+frontend\node_modules\.package-lock.json:778:          "url": 
+"https://github.com/sponsors/ai"
+frontend\node_modules\.package-lock.json:828:          "url": 
+"https://opencollective.com/browserslist"
+frontend\node_modules\.package-lock.json:832:          "url": 
+"https://tidelift.com/funding/github/npm/caniuse-lite"
+frontend\node_modules\.package-lock.json:836:          "url": 
+"https://github.com/sponsors/ai"
+frontend\node_modules\.package-lock.json:855:        "url": 
+"https://github.com/chalk/chalk?sponsor=1"
+frontend\node_modules\.package-lock.json:914:        "url": 
+"https://opencollective.com/express"
+frontend\node_modules\.package-lock.json:1069:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1122:        "url": 
+"https://eslint.org/donate"
+frontend\node_modules\.package-lock.json:1177:        "url": 
+"https://opencollective.com/eslint"
+frontend\node_modules\.package-lock.json:1190:        "url": 
+"https://opencollective.com/eslint"
+frontend\node_modules\.package-lock.json:1208:        "url": 
+"https://opencollective.com/eslint"
+frontend\node_modules\.package-lock.json:1323:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1354:          "url": 
+"https://github.com/sponsors/RubenVerborgh"
+frontend\node_modules\.package-lock.json:1394:        "url": 
+"https://github.com/sponsors/rawify"
+frontend\node_modules\.package-lock.json:1403:        "url": 
+"https://github.com/sponsors/ljharb"
+frontend\node_modules\.package-lock.json:1437:        "url": 
+"https://github.com/sponsors/ljharb"
+frontend\node_modules\.package-lock.json:1476:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1488:        "url": 
+"https://github.com/sponsors/ljharb"
+frontend\node_modules\.package-lock.json:1510:        "url": 
+"https://github.com/sponsors/ljharb"
+frontend\node_modules\.package-lock.json:1525:        "url": 
+"https://github.com/sponsors/ljharb"
+frontend\node_modules\.package-lock.json:1560:      "integrity": 
+"sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpk
+kcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==",
+frontend\node_modules\.package-lock.json:1581:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1729:        "url": 
+"https://opencollective.com/parcel"
+frontend\node_modules\.package-lock.json:1763:        "url": 
+"https://opencollective.com/parcel"
+frontend\node_modules\.package-lock.json:1779:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1857:          "url": 
+"https://github.com/sponsors/ai"
+frontend\node_modules\.package-lock.json:1913:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1929:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:1983:        "url": 
+"https://github.com/sponsors/jonschlinkert"
+frontend\node_modules\.package-lock.json:1994:          "url": 
+"https://opencollective.com/postcss/"
+frontend\node_modules\.package-lock.json:1998:          "url": 
+"https://tidelift.com/funding/github/npm/postcss"
+frontend\node_modules\.package-lock.json:2002:          "url": 
+"https://github.com/sponsors/ai"
+frontend\node_modules\.package-lock.json:2183:      "integrity": 
+"sha512-oeM1lpU/UvhTxw+g3cIfxXHyJRc/uidd3yK1P242gzHds0udQBYzs3y8j
+4gCCW+ZJ7ad0yctld8RYO+bdurlvw==",
+frontend\node_modules\.package-lock.json:2229:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:2266:        "url": 
+"https://github.com/sponsors/SuperchupuDev"
+frontend\node_modules\.package-lock.json:2298:          "url": 
+"https://opencollective.com/browserslist"
+frontend\node_modules\.package-lock.json:2302:          "url": 
+"https://tidelift.com/funding/github/npm/browserslist"
+frontend\node_modules\.package-lock.json:2306:          "url": 
+"https://github.com/sponsors/ai"
+frontend\node_modules\.package-lock.json:2352:        "url": 
+"https://github.com/vitejs/vite?sponsor=1"
+frontend\node_modules\.package-lock.json:2453:        "url": 
+"https://github.com/sponsors/sindresorhus"
+frontend\node_modules\.package-lock.json:2464:        "url": 
+"https://github.com/sponsors/colinhacks"
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\public\images 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\public\images' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+frontend\public\favicon.svg:1:<svg 
+xmlns="http://www.w3.org/2000/svg" width="48" height="46" 
+fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 
+44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 
+0-2.262-2.262H10.287c-.92 
+0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 
+0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c
+.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 
+1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 
+1.473 1.088.89 1.83L25.947 44.94z" 
+style="fill:#863bff;fill:color(display-p3 .5252 .23 
+1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" 
+y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path 
+fill="#000" d="M25.842 
+44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 
+0-2.262-2.262H10.183c-.92 
+0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 
+0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.2
+14-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 
+10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 
+1.088.89 1.832L25.843 44.94z" 
+style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g 
+filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" 
+rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 
+.9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 
+-.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse 
+cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" 
+style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 
+1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 
+7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" 
+fill="#7e14ff" rx="5.508" ry="30.487" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.814 -25.913 
+-14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse 
+cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.814 -32.644 
+-3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" 
+cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 
+30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" 
+cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" 
+style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 
+1);fill-opacity:1" transform="rotate(93.35 24.506 
+48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" 
+cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.009 28.708 
+47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" 
+cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(89.009 28.708 
+47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" 
+cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g 
+filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" 
+rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 
+.4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 
+-6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" 
+cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" 
+style="fill:#47bfff;fill:color(display-p3 .2799 .748 
+1);fill-opacity:1" transform="rotate(37.892 41.412 
+6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" 
+cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(37.892 -1.88 
+38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" 
+cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(37.892 -1.88 
+38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" 
+cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" 
+style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 
+1);fill-opacity:1" transform="rotate(37.892 35.651 
+29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" 
+fill="#47bfff" rx="5.971" ry="15.297" 
+style="fill:#47bfff;fill:color(display-p3 .2799 .748 
+1);fill-opacity:1" transform="rotate(37.892 38.418 
+32.4)"/></g></g><defs><filter id="b" width="60.045" 
+height="41.654" x="-19.77" y="16.149" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="7.659"/></filter><filter id="c" width="90.34" 
+height="51.437" x="-54.613" y="-7.533" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="7.659"/></filter><filter id="d" width="79.355" 
+height="29.4" x="-49.64" y="2.03" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="e" width="79.579" 
+height="29.4" x="-45.045" y="20.029" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="f" width="79.579" 
+height="29.4" x="-43.513" y="21.178" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="g" width="74.749" 
+height="58.852" x="15.756" y="-17.901" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="7.659"/></filter><filter id="h" width="61.377" 
+height="25.362" x="23.548" y="2.284" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="i" width="61.377" 
+height="25.362" x="23.548" y="2.284" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="j" width="56.045" 
+height="63.649" x="-27.636" y="-22.853" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="k" width="54.814" 
+height="64.646" x="20.116" y="-38.415" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="l" width="33.541" 
+height="35.313" x="24.641" y="-11.323" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="m" width="54.814" 
+height="64.646" x="-29.286" y="6.009" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="n" width="54.814" 
+height="64.646" x="-29.286" y="6.009" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="o" width="54.814" 
+height="64.646" x="8.244" y="-2.416" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter><filter id="p" width="39.409" 
+height="43.623" x="18.713" y="10.588" 
+color-interpolation-filters="sRGB" 
+filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" 
+result="BackgroundImageFix"/><feBlend in="SourceGraphic" 
+in2="BackgroundImageFix" result="shape"/><feGaussianBlur 
+result="effect1_foregroundBlur_2002_17158" 
+stdDeviation="4.596"/></filter></defs></svg>
+frontend\public\icons.svg:3:    <g 
+clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.73
+5c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79
+C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 
+2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 
+4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 
+2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156
+-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.39
+5-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\assets cannot 
+be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\assets' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\components 
+cannot be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\components' 
+is denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\hooks cannot 
+be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\hooks' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+Select-String : The file C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\images cannot 
+be read: Access to the path 'C:\Users\Parmod 
+Budhiraja\.gemini\antigravity\scratch\frontend\src\images' is 
+denied.
+At line:1 char:1
++ Select-String -Path "frontend\**\*" -Pattern "URL", "API", 
+"VITE_" 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Strin 
+   g], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShel 
+   l.Commands.SelectStringCommand
+ 
+frontend\src\App.jsx:8:const API_BASE = "/api/v1";
+frontend\src\App.jsx:13:  SCRAPING: "Extracting user comments 
+and profiles...",
+frontend\src\App.jsx:20:  const [url, setUrl] = useState('');
+frontend\src\App.jsx:29:    if (!url.includes("instagram.com")) {
+frontend\src\App.jsx:30:      setError("Please enter a valid 
+Instagram URL.");
+frontend\src\App.jsx:37:      const response = await 
+axios.post(`${API_BASE}/jobs`, { url }, { timeout: 15000 });
+frontend\src\App.jsx:62:            type="url" 
+frontend\src\App.jsx:63:            id="urlInput"
+frontend\src\App.jsx:65:            value={url}
+frontend\src\App.jsx:66:            onChange={(e) => 
+setUrl(e.target.value)}
+frontend\src\index.css:65:    background-image: 
+url('/images/network-bg.svg');
+
+

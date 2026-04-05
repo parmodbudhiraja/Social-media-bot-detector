@@ -1,0 +1,11 @@
+﻿node.exe : Deployment not found
+At C:\Users\Parmod Budhiraja\AppData\Roaming\npm\railway.ps1:24 
+char:5
++     & "node$exe"  
+"$basedir/node_modules/@railway/cli/bin/railway.js" ...
++     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Deployment not foun 
+   d:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

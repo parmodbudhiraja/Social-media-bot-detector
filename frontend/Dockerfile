@@ -6,6 +6,7 @@ COPY . .
 RUN npm run build
 
 FROM nginx:alpine
+RUN apk add --no-cache ca-certificates
 # Use the Nginx template system to dynamically set the port
 COPY nginx.conf /etc/nginx/templates/default.conf.template
 

@@ -1,0 +1,711 @@
+﻿docker : #0 building with "desktop-linux" instance using docker 
+driver
+At line:1 char:1
++ docker build -t backend-test . 2>&1 | Out-File -Encoding utf8 
+local_d ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (#0 building wit...g 
+    docker driver:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 479B 0.3s done
+#1 DONE 0.7s
+
+#2 [internal] load metadata for 
+docker.io/library/maven:3.8.7-eclipse-temurin-11
+#2 ...
+
+#3 [auth] library/eclipse-temurin:pull token for 
+registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [auth] library/maven:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [internal] load metadata for 
+docker.io/library/eclipse-temurin:11-jre-alpine
+#5 DONE 3.0s
+
+#2 [internal] load metadata for 
+docker.io/library/maven:3.8.7-eclipse-temurin-11
+#2 DONE 3.5s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 2B 0.0s done
+#6 DONE 0.1s
+
+#7 [internal] load build context
+#7 DONE 0.0s
+
+#8 [stage-1 1/3] FROM docker.io/library/eclipse-temurin:11-jre-al
+pine@sha256:20e81b53fda37ea2916d2db8d408d959e3ce3e84d71b1236b24b0
+b9f69537166
+#8 resolve docker.io/library/eclipse-temurin:11-jre-alpine@sha256
+:20e81b53fda37ea2916d2db8d408d959e3ce3e84d71b1236b24b0b9f69537166
+ 0.1s done
+#8 DONE 0.2s
+
+#9 [build 1/6] FROM docker.io/library/maven:3.8.7-eclipse-temurin
+-11@sha256:f313f2908bb59369f3886d907db93729ba15bb9120c6fd9e3029bc
+2b4c18478b
+#9 resolve docker.io/library/maven:3.8.7-eclipse-temurin-11@sha25
+6:f313f2908bb59369f3886d907db93729ba15bb9120c6fd9e3029bc2b4c18478
+b 0.1s done
+#9 DONE 0.2s
+
+#7 [internal] load build context
+#7 transferring context: 17.17kB 0.2s done
+#7 DONE 0.2s
+
+#10 [build 2/6] WORKDIR /app
+#10 CACHED
+
+#11 [build 3/6] COPY pom.xml .
+#11 CACHED
+
+#12 [build 4/6] RUN mvn dependency:go-offline 
+--no-transfer-progress
+#12 10.24 [INFO] Scanning for projects...
+#12 32.64 [INFO] 
+#12 32.64 [INFO] ------------------------< com.example:backend 
+>-------------------------
+#12 32.64 [INFO] Building backend 0.0.1-SNAPSHOT
+#12 32.64 [INFO] --------------------------------[ jar 
+]---------------------------------
+#12 32.65 [INFO] 
+#12 32.65 [INFO] --- maven-dependency-plugin:3.3.0:go-offline 
+(default-cli) @ backend ---
+#12 160.7 [INFO] Resolved plugin: maven-plugin-api-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: doxia-decoration-model-1.4.jar
+#12 160.7 [INFO] Resolved plugin: surefire-api-2.22.2.jar
+#12 160.7 [INFO] Resolved plugin: asm-analysis-4.1.jar
+#12 160.7 [INFO] Resolved plugin: doxia-sink-api-1.4.jar
+#12 160.7 [INFO] Resolved plugin: asm-util-4.1.jar
+#12 160.7 [INFO] Resolved plugin: velocity-tools-2.0.jar
+#12 160.7 [INFO] Resolved plugin: struts-tiles-1.3.8.jar
+#12 160.7 [INFO] Resolved plugin: maven-toolchain-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-plugin-annotations-3.5.2.jar
+#12 160.7 [INFO] Resolved plugin: j2objc-annotations-1.3.jar
+#12 160.7 [INFO] Resolved plugin: asm-commons-8.0.jar
+#12 160.7 [INFO] Resolved plugin: sslext-1.2-0.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-repository-metadata-3.0.jar
+#12 160.7 [INFO] Resolved plugin: wagon-http-1.0-beta-6.jar
+#12 160.7 [INFO] Resolved plugin: asm-3.3.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-shared-io-3.0.0.jar
+#12 160.7 [INFO] Resolved plugin: commons-logging-1.1.1.jar
+#12 160.7 [INFO] Resolved plugin: aether-api-1.7.jar
+#12 160.7 [INFO] Resolved plugin: sisu-guice-2.1.7-noaop.jar
+#12 160.7 [INFO] Resolved plugin: xml-apis-1.3.04.jar
+#12 160.7 [INFO] Resolved plugin: maven-model-builder-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: dom4j-1.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-interpolation-1.11.jar
+#12 160.7 [INFO] Resolved plugin: 
+plexus-container-default-1.0-alpha-9-stable-1.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-surefire-plugin-2.22.2.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-3.0.10.jar
+#12 160.7 [INFO] Resolved plugin: doxia-core-1.4.jar
+#12 160.7 [INFO] Resolved plugin: maven-aether-provider-3.0.jar
+#12 160.7 [INFO] Resolved plugin: tomlj-1.0.0.jar
+#12 160.7 [INFO] Resolved plugin: spring-core-5.3.31.jar
+#12 160.7 [INFO] Resolved plugin: plexus-interpolation-1.14.jar
+#12 160.7 [INFO] Resolved plugin: jetty-6.1.25.jar
+#12 160.7 [INFO] Resolved plugin: doxia-module-markdown-1.4.jar
+#12 160.7 [INFO] Resolved plugin: doxia-logging-api-1.4.jar
+#12 160.7 [INFO] Resolved plugin: maven-core-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: antlr-2.7.2.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-repository-metadata-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-shared-utils-0.3.jar
+#12 160.7 [INFO] Resolved plugin: 
+wagon-webdav-jackrabbit-1.0-beta-6.jar
+#12 160.7 [INFO] Resolved plugin: plexus-classworlds-2.2.3.jar
+#12 160.7 [INFO] Resolved plugin: maven-model-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+plexus-compiler-javac-2.11.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+jackson-module-parameter-names-2.13.5.jar
+#12 160.7 [INFO] Resolved plugin: maven-shared-utils-0.4.jar
+#12 160.7 [INFO] Resolved plugin: asm-8.0.jar
+#12 160.7 [INFO] Resolved plugin: commons-lang3-3.8.1.jar
+#12 160.7 [INFO] Resolved plugin: asm-tree-4.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+plexus-component-annotations-2.0.0.jar
+#12 160.7 [INFO] Resolved plugin: commons-lang-2.5.jar
+#12 160.7 [INFO] Resolved plugin: plexus-java-1.1.1.jar
+#12 160.7 [INFO] Resolved plugin: servlet-api-2.5.jar
+#12 160.7 [INFO] Resolved plugin: httpclient-4.5.14.jar
+#12 160.7 [INFO] Resolved plugin: 
+plexus-container-default-1.0-alpha-30.jar
+#12 160.7 [INFO] Resolved plugin: maven-plugin-registry-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: aether-impl-1.7.jar
+#12 160.7 [INFO] Resolved plugin: jsr305-2.0.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-dependency-tree-3.0.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-error-diagnostics-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+#12 160.7 [INFO] Resolved plugin: struts-taglib-1.3.8.jar
+#12 160.7 [INFO] Resolved plugin: maven-artifact-3.0.jar
+#12 160.7 [INFO] Resolved plugin: sisu-guice-3.1.0-no_aop.jar
+#12 160.7 [INFO] Resolved plugin: commons-lang3-3.7.jar
+#12 160.7 [INFO] Resolved plugin: checker-compat-qual-2.5.5.jar
+#12 160.7 [INFO] Resolved plugin: maven-settings-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: maven-plugin-api-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-project-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-shade-plugin-3.2.4.jar
+#12 160.7 [INFO] Resolved plugin: 
+plexus-component-annotations-1.5.5.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-shared-incremental-1.1.jar
+#12 160.7 [INFO] Resolved plugin: failureaccess-1.0.1.jar
+#12 160.7 [INFO] Resolved plugin: velocity-1.5.jar
+#12 160.7 [INFO] Resolved plugin: wagon-provider-api-2.10.jar
+#12 160.7 [INFO] Resolved plugin: plexus-io-3.2.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-settings-builder-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: maven-artifact-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: asm-analysis-8.0.jar
+#12 160.7 [INFO] Resolved plugin: asm-9.2.jar
+#12 160.7 [INFO] Resolved plugin: commons-codec-1.11.jar
+#12 160.7 [INFO] Resolved plugin: commons-codec-1.6.jar
+#12 160.7 [INFO] Resolved plugin: snappy-0.4.jar
+#12 160.7 [INFO] Resolved plugin: jackson-annotations-2.13.5.jar
+#12 160.7 [INFO] Resolved plugin: wagon-provider-api-1.0.jar
+#12 160.7 [INFO] Resolved plugin: jsr305-3.0.2.jar
+#12 160.7 [INFO] Resolved plugin: 
+spring-boot-maven-plugin-2.7.18.jar
+#12 160.7 [INFO] Resolved plugin: jna-5.7.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-compiler-plugin-3.10.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-build-api-0.0.7.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-3.3.1.jar
+#12 160.7 [INFO] Resolved plugin: parboiled-core-1.1.4.jar
+#12 160.7 [INFO] Resolved plugin: commons-compress-1.21.jar
+#12 160.7 [INFO] Resolved plugin: commons-digester-1.8.jar
+#12 160.7 [INFO] Resolved plugin: commons-io-1.4.jar
+#12 160.7 [INFO] Resolved plugin: aether-impl-0.9.0.M2.jar
+#12 160.7 [INFO] Resolved plugin: maven-archiver-3.5.2.jar
+#12 160.7 [INFO] Resolved plugin: aether-spi-0.9.0.M2.jar
+#12 160.7 [INFO] Resolved plugin: commons-collections-3.2.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-velocity-1.1.8.jar
+#12 160.7 [INFO] Resolved plugin: nekohtml-1.9.6.2.jar
+#12 160.7 [INFO] Resolved plugin: maven-site-plugin-3.3.jar
+#12 160.7 [INFO] Resolved plugin: doxia-module-apt-1.4.jar
+#12 160.7 [INFO] Resolved plugin: maven-install-plugin-2.5.2.jar
+#12 160.7 [INFO] Resolved plugin: doxia-module-xdoc-1.4.jar
+#12 160.7 [INFO] Resolved plugin: 
+spring-boot-loader-tools-2.7.18.jar
+#12 160.7 [INFO] Resolved plugin: xercesImpl-2.9.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-i18n-1.0-beta-7.jar
+#12 160.7 [INFO] Resolved plugin: slf4j-nop-1.5.3.jar
+#12 160.7 [INFO] Resolved plugin: servlet-api-2.5-20081211.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-common-artifact-filters-3.0.1.jar
+#12 160.7 [INFO] Resolved plugin: httpcore-4.0.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-aether-provider-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: plexus-classworlds-2.4.2.jar
+#12 160.7 [INFO] Resolved plugin: commons-compress-1.20.jar
+#12 160.7 [INFO] Resolved plugin: 
+wagon-http-shared-1.0-beta-6.jar
+#12 160.7 [INFO] Resolved plugin: commons-httpclient-3.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+wagon-provider-api-1.0-beta-6.jar
+#12 160.7 [INFO] Resolved plugin: maven-reporting-exec-1.1.jar
+#12 160.7 [INFO] Resolved plugin: parboiled-java-1.1.4.jar
+#12 160.7 [INFO] Resolved plugin: pegdown-1.2.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-java-0.9.10.jar
+#12 160.7 [INFO] Resolved plugin: maven-settings-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: jackson-databind-2.13.5.jar
+#12 160.7 [INFO] Resolved plugin: aopalliance-1.0.jar
+#12 160.7 [INFO] Resolved plugin: surefire-logger-api-2.22.2.jar
+#12 160.7 [INFO] Resolved plugin: maven-model-3.0.jar
+#12 160.7 [INFO] Resolved plugin: slf4j-api-1.5.6.jar
+#12 160.7 [INFO] Resolved plugin: maven-shared-utils-3.3.3.jar
+#12 160.7 [INFO] Resolved plugin: plexus-interpolation-1.26.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-artifact-manager-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: jackrabbit-webdav-1.5.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+org.eclipse.sisu.inject-0.0.0.M2a.jar
+#12 160.7 [INFO] Resolved plugin: maven-reporting-api-3.0.jar
+#12 160.7 [INFO] Resolved plugin: commons-codec-1.2.jar
+#12 160.7 [INFO] Resolved plugin: maven-model-builder-3.0.jar
+#12 160.7 [INFO] Resolved plugin: cdi-api-1.0.jar
+#12 160.7 [INFO] Resolved plugin: jsr250-api-1.0.jar
+#12 160.7 [INFO] Resolved plugin: doxia-module-fml-1.4.jar
+#12 160.7 [INFO] Resolved plugin: xercesMinimal-1.9.6.2.jar
+#12 160.7 [INFO] Resolved plugin: maven-filtering-3.2.0.jar
+#12 160.7 [INFO] Resolved plugin: aether-util-0.9.0.M2.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-1.5.15.jar
+#12 160.7 [INFO] Resolved plugin: plexus-cipher-1.4.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-repository-metadata-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: maven-archiver-2.4.2.jar
+#12 160.7 [INFO] Resolved plugin: jdom2-2.0.6.jar
+#12 160.7 [INFO] Resolved plugin: doxia-module-xhtml-1.4.jar
+#12 160.7 [INFO] Resolved plugin: maven-settings-3.0.jar
+#12 160.7 [INFO] Resolved plugin: jsr305-1.3.9.jar
+#12 160.7 [INFO] Resolved plugin: maven-plugin-api-3.0.jar
+#12 160.7 [INFO] Resolved plugin: sisu-inject-bean-1.4.2.jar
+#12 160.7 [INFO] Resolved plugin: commons-codec-1.3.jar
+#12 160.7 [INFO] Resolved plugin: antlr4-runtime-4.7.2.jar
+#12 160.7 [INFO] Resolved plugin: 
+jackrabbit-jcr-commons-1.5.0.jar
+#12 160.7 [INFO] Resolved plugin: classworlds-1.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-deploy-plugin-2.8.2.jar
+#12 160.7 [INFO] Resolved plugin: struts-core-1.3.8.jar
+#12 160.7 [INFO] Resolved plugin: classworlds-1.1-alpha-2.jar
+#12 160.7 [INFO] Resolved plugin: junit-3.8.1.jar
+#12 160.7 [INFO] Resolved plugin: guava-10.0.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-1.5.8.jar
+#12 160.7 [INFO] Resolved plugin: commons-chain-1.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-artifact-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-plugin-descriptor-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: spring-jcl-5.3.31.jar
+#12 160.7 [INFO] Resolved plugin: javax.inject-1.jar
+#12 160.7 [INFO] Resolved plugin: aether-api-0.9.0.M2.jar
+#12 160.7 [INFO] Resolved plugin: maven-shared-utils-3.3.4.jar
+#12 160.7 [INFO] Resolved plugin: doxia-site-renderer-1.4.jar
+#12 160.7 [INFO] Resolved plugin: doxia-integration-tools-1.5.jar
+#12 160.7 [INFO] Resolved plugin: oro-2.0.8.jar
+#12 160.7 [INFO] Resolved plugin: xz-1.9.jar
+#12 160.7 [INFO] Resolved plugin: maven-compat-3.0.jar
+#12 160.7 [INFO] Resolved plugin: jna-platform-5.7.0.jar
+#12 160.7 [INFO] Resolved plugin: maven-settings-builder-3.0.jar
+#12 160.7 [INFO] Resolved plugin: jetty-util-6.1.25.jar
+#12 160.7 [INFO] Resolved plugin: aether-util-1.7.jar
+#12 160.7 [INFO] Resolved plugin: maven-core-3.0.jar
+#12 160.7 [INFO] Resolved plugin: plexus-archiver-1.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+spring-boot-buildpack-platform-2.7.18.jar
+#12 160.7 [INFO] Resolved plugin: plexus-archiver-4.2.7.jar
+#12 160.7 [INFO] Resolved plugin: jdependency-2.4.0.jar
+#12 160.7 [INFO] Resolved plugin: commons-io-2.6.jar
+#12 160.7 [INFO] Resolved plugin: jcl-over-slf4j-1.5.6.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-artifact-transfer-0.12.0.jar
+#12 160.7 [INFO] Resolved plugin: asm-util-8.0.jar
+#12 160.7 [INFO] Resolved plugin: maven-monitor-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-compiler-api-2.11.1.jar
+#12 160.7 [INFO] Resolved plugin: hamcrest-core-1.3.jar
+#12 160.7 [INFO] Resolved plugin: httpcore-4.4.16.jar
+#12 160.7 [INFO] Resolved plugin: slf4j-api-1.7.5.jar
+#12 160.7 [INFO] Resolved plugin: maven-jar-plugin-3.2.2.jar
+#12 160.7 [INFO] Resolved plugin: qdox-2.0-M8.jar
+#12 160.7 [INFO] Resolved plugin: qdox-2.0.1.jar
+#12 160.7 [INFO] Resolved plugin: file-management-3.0.0.jar
+#12 160.7 [INFO] Resolved plugin: maven-core-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: surefire-booter-2.22.2.jar
+#12 160.7 [INFO] Resolved plugin: maven-shared-utils-3.1.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-surefire-common-2.22.2.jar
+#12 160.7 [INFO] Resolved plugin: asm-tree-8.0.jar
+#12 160.7 [INFO] Resolved plugin: plexus-io-1.0.jar
+#12 160.7 [INFO] Resolved plugin: sisu-inject-plexus-1.4.2.jar
+#12 160.7 [INFO] Resolved plugin: commons-beanutils-1.7.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+error_prone_annotations-2.3.4.jar
+#12 160.7 [INFO] Resolved plugin: asm-4.1.jar
+#12 160.7 [INFO] Resolved plugin: guava-28.2-android.jar
+#12 160.7 [INFO] Resolved plugin: httpclient-4.0.2.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-3.4.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-clean-plugin-3.2.0.jar
+#12 160.7 [INFO] Resolved plugin: 
+plexus-compiler-manager-2.11.1.jar
+#12 160.7 [INFO] Resolved plugin: maven-profile-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: aether-spi-1.7.jar
+#12 160.7 [INFO] Resolved plugin: plexus-sec-dispatcher-1.3.jar
+#12 160.7 [INFO] Resolved plugin: asm-6.2.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-plugin-parameter-documenter-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: 
+maven-resources-plugin-3.2.0.jar
+#12 160.7 [INFO] Resolved plugin: junit-4.12.jar
+#12 160.7 [INFO] Resolved plugin: plexus-interpolation-1.16.jar
+#12 160.7 [INFO] Resolved plugin: maven-model-2.2.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-3.0.15.jar
+#12 160.7 [INFO] Resolved plugin: jackson-core-2.13.5.jar
+#12 160.7 [INFO] Resolved plugin: commons-validator-1.3.1.jar
+#12 160.7 [INFO] Resolved plugin: plexus-utils-1.5.10.jar
+#12 160.7 [INFO] Resolved plugin: 
+backport-util-concurrent-3.1.jar
+#12 160.7 [INFO] Resolved plugin: slf4j-jdk14-1.5.6.jar
+#12 160.7 [INFO] Resolved plugin: 
+org.eclipse.sisu.plexus-0.0.0.M2a.jar
+#12 160.7 [INFO] Resolved dependency: spring-beans-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: slf4j-api-1.7.32.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-logging-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: jackson-databind-2.13.5.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-resolver-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-expression-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-amqp-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-jdbc-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: spring-jdbc-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: FastInfoset-1.2.15.jar
+#12 160.7 [INFO] Resolved dependency: byte-buddy-1.12.18.jar
+#12 160.7 [INFO] Resolved dependency: opentest4j-1.2.0.jar
+#12 160.7 [INFO] Resolved dependency: spring-retry-1.3.4.jar
+#12 160.7 [INFO] Resolved dependency: 
+jakarta.persistence-api-2.2.3.jar
+#12 160.7 [INFO] Resolved dependency: 
+reactor-netty-core-1.0.39.jar
+#12 160.7 [INFO] Resolved dependency: spring-messaging-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+mockito-junit-jupiter-4.5.1.jar
+#12 160.7 [INFO] Resolved dependency: junit-jupiter-api-5.8.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-codec-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-codec-http-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: tomcat-embed-el-9.0.83.jar
+#12 160.7 [INFO] Resolved dependency: slf4j-api-1.7.33.jar
+#12 160.7 [INFO] Resolved dependency: spring-context-5.3.30.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-buffer-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: byte-buddy-agent-1.12.9.jar
+#12 160.7 [INFO] Resolved dependency: 
+junit-jupiter-params-5.8.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-expression-5.3.30.jar
+#12 160.7 [INFO] Resolved dependency: accessors-smart-2.4.7.jar
+#12 160.7 [INFO] Resolved dependency: xmlunit-core-2.9.1.jar
+#12 160.7 [INFO] Resolved dependency: spring-rabbit-2.4.17.jar
+#12 160.7 [INFO] Resolved dependency: stax-ex-1.8.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-resolver-dns-classes-macos-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+junit-jupiter-engine-5.8.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+jakarta.xml.bind-api-2.3.3.jar
+#12 160.7 [INFO] Resolved dependency: jna-4.5.1.jar
+#12 160.7 [INFO] Resolved dependency: 
+tomcat-embed-core-9.0.83.jar
+#12 160.7 [INFO] Resolved dependency: spring-boot-test-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+istack-commons-runtime-3.0.7.jar
+#12 160.7 [INFO] Resolved dependency: h2-2.1.214.jar
+#12 160.7 [INFO] Resolved dependency: spring-core-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: spring-aop-5.3.30.jar
+#12 160.7 [INFO] Resolved dependency: logback-classic-1.2.12.jar
+#12 160.7 [INFO] Resolved dependency: 
+junit-platform-engine-1.8.2.jar
+#12 160.7 [INFO] Resolved dependency: reactor-core-3.4.34.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-json-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: spring-orm-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: asm-9.1.jar
+#12 160.7 [INFO] Resolved dependency: checker-qual-3.5.0.jar
+#12 160.7 [INFO] Resolved dependency: json-smart-2.4.7.jar
+#12 160.7 [INFO] Resolved dependency: aspectjweaver-1.9.7.jar
+#12 160.7 [INFO] Resolved dependency: spring-jcl-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+jackson-module-parameter-names-2.13.5.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-reactor-netty-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-codec-socks-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+hibernate-commons-annotations-5.1.2.Final.jar
+#12 160.7 [INFO] Resolved dependency: waffle-jna-1.9.1.jar
+#12 160.7 [INFO] Resolved dependency: hamcrest-2.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-autoconfigure-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-transport-native-unix-common-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: postgresql-42.3.8.jar
+#12 160.7 [INFO] Resolved dependency: 
+jackson-datatype-jdk8-2.13.5.jar
+#12 160.7 [INFO] Resolved dependency: log4j-to-slf4j-2.17.2.jar
+#12 160.7 [INFO] Resolved dependency: jsonassert-1.5.1.jar
+#12 160.7 [INFO] Resolved dependency: 
+jakarta.validation-api-2.0.2.jar
+#12 160.7 [INFO] Resolved dependency: byte-buddy-1.12.9.jar
+#12 160.7 [INFO] Resolved dependency: spring-aop-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-handler-proxy-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: classmate-1.5.1.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-codec-dns-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: mockito-core-4.5.1.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-aop-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+jboss-logging-3.4.3.Final.jar
+#12 160.7 [INFO] Resolved dependency: spring-amqp-2.4.17.jar
+#12 160.7 [INFO] Resolved dependency: txw2-2.3.1.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-transport-classes-epoll-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-web-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: antlr-2.7.7.jar
+#12 160.7 [INFO] Resolved dependency: 
+jakarta.annotation-api-1.3.5.jar
+#12 160.7 [INFO] Resolved dependency: spring-test-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+jakarta.activation-api-1.2.2.jar
+#12 160.7 [INFO] Resolved dependency: jcl-over-slf4j-1.7.25.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-tomcat-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-test-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+reactor-netty-http-1.0.39.jar
+#12 160.7 [INFO] Resolved dependency: caffeine-2.6.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+hibernate-core-5.6.15.Final.jar
+#12 160.7 [INFO] Resolved dependency: assertj-core-3.22.0.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-resolver-dns-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: json-path-2.7.0.jar
+#12 160.7 [INFO] Resolved dependency: 
+jackson-datatype-jsr310-2.13.5.jar
+#12 160.7 [INFO] Resolved dependency: 
+tomcat-embed-websocket-9.0.83.jar
+#12 160.7 [INFO] Resolved dependency: log4j-api-2.17.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-data-jpa-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-handler-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+jackson-annotations-2.13.5.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-transport-native-epoll-4.1.101.Final-linux-x86_64.jar
+#12 160.7 [INFO] Resolved dependency: spring-webmvc-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+jakarta.transaction-api-1.3.3.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-webflux-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: spring-context-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+hibernate-validator-6.2.5.Final.jar
+#12 160.7 [INFO] Resolved dependency: 
+jboss-logging-3.4.1.Final.jar
+#12 160.7 [INFO] Resolved dependency: spring-aspects-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: 
+junit-platform-commons-1.8.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-codec-http2-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: spring-boot-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: spring-tx-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: spring-webflux-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: junit-jupiter-5.8.2.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-starter-validation-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: spring-web-5.3.31.jar
+#12 160.7 [INFO] Resolved dependency: jul-to-slf4j-1.7.36.jar
+#12 160.7 [INFO] Resolved dependency: jna-platform-4.5.1.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-transport-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: jaxb-runtime-2.3.1.jar
+#12 160.7 [INFO] Resolved dependency: amqp-client-5.14.3.jar
+#12 160.7 [INFO] Resolved dependency: objenesis-3.2.jar
+#12 160.7 [INFO] Resolved dependency: jandex-2.4.2.Final.jar
+#12 160.7 [INFO] Resolved dependency: snakeyaml-1.30.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-boot-test-autoconfigure-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: apiguardian-api-1.1.2.jar
+#12 160.7 [INFO] Resolved dependency: HikariCP-4.0.3.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-resolver-dns-native-macos-4.1.101.Final-osx-x86_64.jar
+#12 160.7 [INFO] Resolved dependency: slf4j-api-1.7.25.jar
+#12 160.7 [INFO] Resolved dependency: spring-data-jpa-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: spring-tx-5.3.30.jar
+#12 160.7 [INFO] Resolved dependency: 
+netty-common-4.1.101.Final.jar
+#12 160.7 [INFO] Resolved dependency: jackson-core-2.13.5.jar
+#12 160.7 [INFO] Resolved dependency: 
+android-json-0.0.20131108.vaadin1.jar
+#12 160.7 [INFO] Resolved dependency: 
+spring-data-commons-2.7.18.jar
+#12 160.7 [INFO] Resolved dependency: reactive-streams-1.0.4.jar
+#12 160.7 [INFO] Resolved dependency: logback-core-1.2.12.jar
+#12 160.7 [INFO] ------------------------------------------------
+------------------------
+#12 160.7 [INFO] BUILD SUCCESS
+#12 160.7 [INFO] ------------------------------------------------
+------------------------
+#12 160.7 [INFO] Total time:  02:30 min
+#12 160.7 [INFO] Finished at: 2026-04-04T19:52:48Z
+#12 160.7 [INFO] ------------------------------------------------
+------------------------
+#12 DONE 161.2s
+
+#13 [build 5/6] COPY src ./src
+#13 DONE 0.5s
+
+#14 [build 6/6] RUN mvn clean package -DskipTests 
+--no-transfer-progress
+#14 5.538 [INFO] Scanning for projects...
+#14 6.438 [INFO] 
+#14 6.438 [INFO] ------------------------< com.example:backend 
+>-------------------------
+#14 6.439 [INFO] Building backend 0.0.1-SNAPSHOT
+#14 6.439 [INFO] --------------------------------[ jar 
+]---------------------------------
+#14 13.74 [INFO] 
+#14 13.75 [INFO] --- maven-clean-plugin:3.2.0:clean 
+(default-clean) @ backend ---
+#14 14.30 [INFO] 
+#14 14.31 [INFO] --- maven-resources-plugin:3.2.0:resources 
+(default-resources) @ backend ---
+#14 15.09 [INFO] Using 'UTF-8' encoding to copy filtered 
+resources.
+#14 15.09 [INFO] Using 'UTF-8' encoding to copy filtered 
+properties files.
+#14 15.11 [INFO] Copying 1 resource
+#14 15.17 [INFO] Copying 1 resource
+#14 15.17 [INFO] 
+#14 15.17 [INFO] --- maven-compiler-plugin:3.10.1:compile 
+(default-compile) @ backend ---
+#14 15.50 [INFO] Changes detected - recompiling the module!
+#14 15.52 [INFO] Compiling 16 source files to /app/target/classes
+#14 20.63 [INFO] /app/src/main/java/com/example/backend/service/R
+abbitMQListener.java: Some input files use unchecked or unsafe 
+operations.
+#14 20.63 [INFO] /app/src/main/java/com/example/backend/service/R
+abbitMQListener.java: Recompile with -Xlint:unchecked for 
+details.
+#14 20.63 [INFO] 
+#14 20.63 [INFO] --- maven-resources-plugin:3.2.0:testResources 
+(default-testResources) @ backend ---
+#14 20.64 [INFO] Using 'UTF-8' encoding to copy filtered 
+resources.
+#14 20.64 [INFO] Using 'UTF-8' encoding to copy filtered 
+properties files.
+#14 20.65 [INFO] skip non existing resourceDirectory 
+/app/src/test/resources
+#14 20.65 [INFO] 
+#14 20.65 [INFO] --- maven-compiler-plugin:3.10.1:testCompile 
+(default-testCompile) @ backend ---
+#14 20.70 [INFO] Changes detected - recompiling the module!
+#14 20.70 [INFO] Compiling 4 source files to 
+/app/target/test-classes
+#14 22.17 [INFO] 
+-------------------------------------------------------------
+#14 22.17 [ERROR] COMPILATION ERROR : 
+#14 22.18 [INFO] 
+-------------------------------------------------------------
+#14 22.18 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[27,47] cannot find symbol
+#14 22.18   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.18   location: variable fileGeneratorService of type 
+com.example.backend.service.FileGeneratorService
+#14 22.18 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[38,47] cannot find symbol
+#14 22.18   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.18   location: variable fileGeneratorService of type 
+com.example.backend.service.FileGeneratorService
+#14 22.18 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[53,51] cannot find symbol
+#14 22.18   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.18   location: variable fileGeneratorService of type 
+com.example.backend.service.FileGeneratorService
+#14 22.18 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[58,51] cannot find symbol
+#14 22.18   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.18   location: variable fileGeneratorService of type 
+com.example.backend.service.FileGeneratorService
+#14 22.18 [INFO] 4 errors 
+#14 22.18 [INFO] 
+-------------------------------------------------------------
+#14 22.18 [INFO] ------------------------------------------------
+------------------------
+#14 22.18 [INFO] BUILD FAILURE
+#14 22.18 [INFO] ------------------------------------------------
+------------------------
+#14 22.19 [INFO] Total time:  16.729 s
+#14 22.19 [INFO] Finished at: 2026-04-04T19:53:11Z
+#14 22.19 [INFO] ------------------------------------------------
+------------------------
+#14 22.20 [ERROR] Failed to execute goal org.apache.maven.plugins
+:maven-compiler-plugin:3.10.1:testCompile (default-testCompile) 
+on project backend: Compilation failure: Compilation failure: 
+#14 22.20 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[27,47] cannot find symbol
+#14 22.20 [ERROR]   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.20 [ERROR]   location: variable fileGeneratorService of 
+type com.example.backend.service.FileGeneratorService
+#14 22.20 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[38,47] cannot find symbol
+#14 22.20 [ERROR]   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.20 [ERROR]   location: variable fileGeneratorService of 
+type com.example.backend.service.FileGeneratorService
+#14 22.20 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[53,51] cannot find symbol
+#14 22.20 [ERROR]   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.20 [ERROR]   location: variable fileGeneratorService of 
+type com.example.backend.service.FileGeneratorService
+#14 22.20 [ERROR] /app/src/test/java/com/example/backend/service/
+FileGeneratorServiceTest.java:[58,51] cannot find symbol
+#14 22.20 [ERROR]   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+#14 22.20 [ERROR]   location: variable fileGeneratorService of 
+type com.example.backend.service.FileGeneratorService
+#14 22.20 [ERROR] -> [Help 1]
+#14 22.20 [ERROR] 
+#14 22.20 [ERROR] To see the full stack trace of the errors, 
+re-run Maven with the -e switch.
+#14 22.20 [ERROR] Re-run Maven using the -X switch to enable 
+full debug logging.
+#14 22.20 [ERROR] 
+#14 22.20 [ERROR] For more information about the errors and 
+possible solutions, please read the following articles:
+#14 22.20 [ERROR] [Help 1] http://cwiki.apache.org/confluence/dis
+play/MAVEN/MojoFailureException
+#14 ERROR: process "/bin/sh -c mvn clean package -DskipTests 
+--no-transfer-progress" did not complete successfully: exit 
+code: 1
+------
+ > [build 6/6] RUN mvn clean package -DskipTests 
+--no-transfer-progress:
+22.20 [ERROR] /app/src/test/java/com/example/backend/service/File
+GeneratorServiceTest.java:[58,51] cannot find symbol
+22.20 [ERROR]   symbol:   method 
+generateCsv(java.lang.String,java.lang.String)
+22.20 [ERROR]   location: variable fileGeneratorService of type 
+com.example.backend.service.FileGeneratorService
+22.20 [ERROR] -> [Help 1]
+22.20 [ERROR] 
+22.20 [ERROR] To see the full stack trace of the errors, re-run 
+Maven with the -e switch.
+22.20 [ERROR] Re-run Maven using the -X switch to enable full 
+debug logging.
+22.20 [ERROR] 
+22.20 [ERROR] For more information about the errors and possible 
+solutions, please read the following articles:
+22.20 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display
+/MAVEN/MojoFailureException
+------
+Dockerfile:8
+--------------------
+   6 |     COPY src ./src
+   7 |     ENV MAVEN_OPTS="-Xmx384m"
+   8 | >>> RUN mvn clean package -DskipTests 
+--no-transfer-progress
+   9 |     
+  10 |     FROM eclipse-temurin:11-jre-alpine
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c mvn 
+clean package -DskipTests --no-transfer-progress" did not 
+complete successfully: exit code: 1
