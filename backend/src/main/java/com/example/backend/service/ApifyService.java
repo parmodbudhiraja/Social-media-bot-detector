@@ -122,6 +122,12 @@ public class ApifyService {
                     }
                 }
 
+                if (userCommentsMap.isEmpty()) {
+                    logger.warn("Job {}: Found comments but 0 unique users, aborting.", jobId);
+                    failJob(jobId, "No unique users found in comments to profile");
+                    return;
+                }
+
                 logger.info("Job {}: Grouped comments for {} unique users. Triggering Stage 2 (Profiles).", jobId, userCommentsMap.size());
                 triggerProfileScraping(userCommentsMap, jobId);
             }, error -> {
