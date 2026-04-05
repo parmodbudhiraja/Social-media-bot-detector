@@ -26,19 +26,23 @@ public class DebugController {
         
         // Check DB
         try {
+            logger.info("Debug: Testing Database connection...");
             jdbcTemplate.execute("SELECT 1");
             health.put("database", "UP");
         } catch (Exception e) {
+            logger.error("Debug: Database connection FAILED: {}", e.getMessage());
             health.put("database", "DOWN: " + e.getMessage());
         }
 
         // Check RabbitMQ
         try {
+            logger.info("Debug: Testing RabbitMQ connection...");
             rabbitTemplate.execute(channel -> {
                 health.put("rabbitmq", "UP");
                 return null;
             });
         } catch (Exception e) {
+            logger.error("Debug: RabbitMQ connection FAILED: {}", e.getMessage());
             health.put("rabbitmq", "DOWN: " + e.getMessage());
         }
 
