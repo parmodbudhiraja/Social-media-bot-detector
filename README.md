@@ -1,4 +1,4 @@
-# Instagram Engagement Analyzer (Bot Detector)
+# Fake Engagement Detector
 
 A full-stack application to automatically scrape, process, and classify the engagement of an Instagram post to identify fake interactions and bot accounts.
 
