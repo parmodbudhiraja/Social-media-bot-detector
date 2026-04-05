@@ -37,6 +37,7 @@ public class RabbitMQListener {
     @RabbitListener(queues = RabbitMQConfig.RESULTS_QUEUE)
     public void consumeResults(Map<String, Object> message) {
         String jobId = (String) message.get("job_id");
+        System.out.println("Backend: Received results from RabbitMQ for Job " + jobId);
         List<Integer> xPreds = (List<Integer>) message.get("x_predictions");
         List<Integer> yPreds = (List<Integer>) message.get("y_predictions");
         
