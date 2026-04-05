@@ -1,0 +1,18 @@
+﻿node.exe : error: unexpected argument '--json' found
+At C:\Users\Parmod Budhiraja\AppData\Roaming\npm\railway.ps1:24 
+char:5
++     & "node$exe"  
+"$basedir/node_modules/@railway/cli/bin/railway.js" ...
++     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: unexpect...  
+   '--json' found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+  tip: to pass '--json' as a value, use '-- --json'
+
+Usage: railway.exe service <SERVICE>
+
+For more information, try '--help'.
+
