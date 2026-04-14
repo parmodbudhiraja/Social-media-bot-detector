@@ -4,12 +4,6 @@ A full-stack application to automatically scrape, process, and classify the enga
 
 ---
 
-## 🚀 Deployed Project
-The application is live at (Prefer running it in incognito mode):
-**[https://authentic-success-production-7744.up.railway.app/](https://authentic-success-production-7744.up.railway.app/)**
-
----
-
 ## 📽️ Project Demo
 Click to watch the demo of the deployed project:
 [![Watch the Demo](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1-Vf2Uekf4JjVTiFSaUQe37xoFctmjltg/view?usp=sharing)
